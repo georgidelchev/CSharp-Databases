@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataAggregation">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="RUMELA-PC\SQLEXPRESS:RUMELA-PC\Rumela">
+          <Created>2018-06-04T11:36:20.4132269+03:00</Created>
+          <Type>SQL</Type>
+          <Server>RUMELA-PC\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01.RecordsCount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01.RecordsCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02.LongestMagicWand.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02.LongestMagicWand.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03.LongestMagicWandPerDepositGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03.LongestMagicWandPerDepositGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04.SmallestDepositGroupPerMagicWandSize.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04.SmallestDepositGroupPerMagicWandSize.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05.DepositsSum.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.DepositsSum.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.DepositsSumForOllivanderFamily.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.DepositsSumForOllivanderFamily.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.DepositsFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.DepositsFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08.DepositCharge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08.DepositCharge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09.AgeGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.AgeGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10.FirstLetter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10.FirstLetter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11.AverageInterest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11.AverageInterest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12.RichWizardPoorWizard.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12.RichWizardPoorWizard.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13.DepartmentsTotalSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13.DepartmentsTotalSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14.EmployeesMinimumSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14.EmployeesMinimumSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15.EmployeesAverageSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15.EmployeesAverageSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16.EmployeesMaximumSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16.EmployeesMaximumSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17.EmployeesCountSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17.EmployeesCountSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18.3rdHighestSalary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18.3rdHighestSalary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19.SalaryChallenge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RUMELA-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RUMELA-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19.SalaryChallenge.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
