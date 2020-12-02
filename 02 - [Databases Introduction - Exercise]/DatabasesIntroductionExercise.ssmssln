@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Minions", "Minions\Minions.ssmssqlproj", "{34280CB8-2479-45F0-A6E5-6BC4313E96A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34280CB8-2479-45F0-A6E5-6BC4313E96A9}.Default|Default.ActiveCfg = Default
+		{5452B00C-943D-4A14-8765-2E9E71D66C46}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {153759AC-F2D1-4814-9AED-BBC7C2A24FA8}
+	EndGlobalSection
+EndGlobal
