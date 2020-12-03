@@ -1,0 +1,69 @@
+.my-button{
+    background-color: #333;  
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color: darkorange;
+    outline: none !important;
+}
+
+body{
+    background-color: rgb(216, 207, 207) !important;
+}
+
+.my-button:hover{
+    color: #333;
+    background-color: darkorange;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.orange{
+    color: darkorange;
+    font-weight: bold !important;
+}
+
+.logo{
+    color: darkorange !important;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo:hover{
+    color: wheat !important;
+}
+
+.navbar{
+    color: darkorange !important;
+    background-color: #234465 !important;
+    border: none !important;
+}
+
+.navbar-toggle{
+    background-color: #234465 !important;
+    border: none;
+}
+
+.nav-buttons{
+    color: darkorange !important;
+    text-align: center !important;
+    background-color:  #213e5a !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-buttons:hover{
+    background-color: #173350 !important;
+    color:  white !important;
+    transition: .8s;
+}
+
+.logo{
+    cursor: pointer;
+    background:url(logo.png); 
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
