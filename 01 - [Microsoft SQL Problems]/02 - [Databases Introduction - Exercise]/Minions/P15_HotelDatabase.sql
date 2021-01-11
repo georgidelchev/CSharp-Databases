@@ -148,11 +148,19 @@ INSERT INTO Occupancies (EmployeeId, DateOccupied, AccountNumber, RoomNumber, Ra
 		   (2, '2020-12-15', 2, 1356, 10645.65, 10512.67, 'some note'),
 		   (3, '2020-12-15', 3, 5356, 10645.65, 10512.67, 'some note')
 
-SELECT * FROM Employees
-SELECT * FROM Customers
-SELECT * FROM RoomStatus
-SELECT * FROM RoomTypes
-SELECT * FROM BedTypes
-SELECT * FROM Rooms
-SELECT * FROM Payments
-SELECT * FROM Occupancies
+SELECT * 
+	FROM Employees
+SELECT * 
+	FROM Customers
+SELECT * 
+	FROM RoomStatus
+SELECT * 
+	FROM RoomTypes
+SELECT * 
+	FROM BedTypes
+SELECT * 
+	FROM Rooms
+SELECT * 
+	FROM Payments
+SELECT * 
+	FROM Occupancies
