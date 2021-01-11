@@ -5,5 +5,5 @@ INSERT INTO Towns
 
 INSERT INTO Minions
 	VALUES(1, 'Kevin', 22, 1),
-		  (2, 'Kevin', 15, 3),
+		  (2, 'Bob', 15, 3),
 		  (3, 'Steward', NULL, 2);
