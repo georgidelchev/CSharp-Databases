@@ -92,7 +92,11 @@ INSERT INTO Movies (Title, DirectorId, CopyrightYear, [Length], GenreId, Categor
 	VALUES ('Supernaturale5', 5, '1990-05-10', '10:25:45', 5, 5, 103.55)
 
 -- CHECK RESULTS
-SELECT * FROM Directors
-SELECT * FROM Genres
-SELECT * FROM Categories
-SELECT * FROM Movies
+SELECT * 
+	FROM Directors
+SELECT * 
+	FROM Genres
+SELECT * 
+	FROM Categories
+SELECT * 
+	FROM Movies
