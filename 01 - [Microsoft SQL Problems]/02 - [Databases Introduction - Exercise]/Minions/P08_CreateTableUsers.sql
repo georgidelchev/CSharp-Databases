@@ -17,8 +17,8 @@ INSERT INTO Users(Username, [Password], ProfilePicture, LastLoginTime, IsDeleted
 	      ('CatOnAJet', '262363', 1764, '2017-10-11 11:15:43', 1);
 
 UPDATE Users
-set [Password] = '1234567'
-where Id = 2;
+	SET [Password] = '1234567'
+WHERE Id = 2;
 
 -- SHALL THROW AN EXCEPTION --
 INSERT INTO Users(Username, [Password], ProfilePicture, LastLoginTime, IsDeleted)
@@ -42,4 +42,5 @@ INSERT INTO Users(Username, [Password], ProfilePicture, LastLoginTime, IsDeleted
 	VALUES('Aleksandra', 'veryHardcorePassword123321', 11211131, '2016-10-10 13:41:42', 0)
 
 
-SELECT * FROM Users
+SELECT * 
+	FROM Users
