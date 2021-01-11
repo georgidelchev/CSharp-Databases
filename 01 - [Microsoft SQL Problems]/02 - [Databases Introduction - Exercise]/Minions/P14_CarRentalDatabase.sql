@@ -100,9 +100,9 @@ INSERT INTO Customers (DriverLicenceNumber, FullName, [Address], City, ZIPCode, 
 		   ('15651B', 'Stavri Stavrev', 'Bv. 317675', 'Plovdiv', 593555, 'Useless')
 
 INSERT INTO RentalOrders (EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, StartDate, EndDate, RateApplied, TaxRate, OrderStatus)
-	VALUES (2, 1, 1, 125, 104512, 670123, '2015-05-12', '2018-07-10', 10723.65, 85126.56, 'Delivered'),
-		   (3, 2, 4, 121, 20000, 723721, '2013-05-12', '2020-07-10', 10123.65, 81126.56, 'Waiting'),
-		   (4, 3, 5, 165, 126461, 73724, '2012-05-12', '2019-07-10', 10823.65, 85926.56, 'Paid')
+	VALUES (1, 1, 1, 125, 104512, 670123, '2015-05-12', '2018-07-10', 10723.65, 85126.56, 'Delivered'),
+		   (2, 2, 2, 121, 20000, 723721, '2013-05-12', '2020-07-10', 10123.65, 81126.56, 'Waiting'),
+		   (3, 3, 3, 165, 126461, 73724, '2012-05-12', '2019-07-10', 10823.65, 85926.56, 'Paid')
 
 SELECT * FROM Categories
 SELECT * FROM Cars		   
