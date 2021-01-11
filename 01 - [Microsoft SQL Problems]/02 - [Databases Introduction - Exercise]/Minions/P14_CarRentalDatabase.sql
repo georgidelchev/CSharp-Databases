@@ -104,8 +104,13 @@ INSERT INTO RentalOrders (EmployeeId, CustomerId, CarId, TankLevel, KilometrageS
 		   (2, 2, 2, 121, 20000, 723721, '2013-05-12', '2020-07-10', 10123.65, 81126.56, 'Waiting'),
 		   (3, 3, 3, 165, 126461, 73724, '2012-05-12', '2019-07-10', 10823.65, 85926.56, 'Paid')
 
-SELECT * FROM Categories
-SELECT * FROM Cars		   
-SELECT * FROM Employees
-SELECT * FROM Customers
-SELECT * FROM RentalOrders
+SELECT * 
+	FROM Categories
+SELECT * 
+	FROM Cars		   
+SELECT * 
+	FROM Employees
+SELECT * 
+	FROM Customers
+SELECT * 
+	FROM RentalOrders
