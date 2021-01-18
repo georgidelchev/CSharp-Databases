@@ -22,7 +22,7 @@ WHERE Status = 'Pending'
 
 -- 4. Delete
 DELETE OrderParts
-    WHERE PartId = 19
+    WHERE OrderId = 19
 
 DELETE Orders
     WHERE OrderId = 19
