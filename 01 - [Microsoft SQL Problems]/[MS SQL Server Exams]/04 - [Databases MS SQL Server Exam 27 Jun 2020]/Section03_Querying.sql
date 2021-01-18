@@ -13,17 +13,17 @@ SELECT m.FirstName + ' ' + m.LastName AS Mechanic,
 SELECT c.FirstName + ' ' + c.LastName           AS Client,
        DATEDIFF(DAY, J.IssueDate, '2017-04-24') AS DaysGoing,
        J.Status
-    FROM WMS.dbo.Clients AS c
+    FROM Clients AS c
              JOIN Jobs J
                   ON c.ClientId = J.ClientId
-    WHERE J.Status = 'In Progress'
+    WHERE J.Status = 'In Progress' OR J.Status = 'Pending'
     ORDER BY DaysGoing DESC,
              c.ClientId
 
 -- 7. Mechanic Performance
 SELECT m.FirstName + ' ' + m.LastName                AS Mechanic,
        AVG(DATEDIFF(DAY, J.IssueDate, J.FinishDate)) AS AverageDays
-    FROM WMS.dbo.Mechanics AS m
+    FROM Mechanics AS m
              JOIN Jobs J
                   ON m.MechanicId = J.MechanicId
     GROUP BY m.FirstName,
@@ -32,7 +32,7 @@ SELECT m.FirstName + ' ' + m.LastName                AS Mechanic,
 
 -- 8. Available Mechanics
 SELECT m.FirstName + ' ' + m.LastName AS Available
-    FROM WMS.dbo.Mechanics AS m
+    FROM Mechanics AS m
              JOIN Jobs J
                   ON m.MechanicId = J.MechanicId
     WHERE J.Status = 'Finished'
