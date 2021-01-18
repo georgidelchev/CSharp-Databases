@@ -42,11 +42,14 @@ CREATE TABLE Agenda
 (
     StudentID INT NOT NULL,
     SubjectID INT NOT NULL,
+    
+    CONSTRAINT PK_Composite_StudentID_SubjectID
+  	    PRIMARY KEY (StudentID, SubjectID),
 
     CONSTRAINT FK_Agenda_Students
         FOREIGN KEY (StudentID)
             REFERENCES Students (StudentID),
-
+    
     CONSTRAINT FK_Agenda_Subjects
         FOREIGN KEY (SubjectID)
             REFERENCES Subjects (SubjectID)
