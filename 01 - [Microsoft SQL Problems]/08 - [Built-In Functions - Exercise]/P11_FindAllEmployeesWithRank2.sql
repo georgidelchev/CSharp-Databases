@@ -6,6 +6,7 @@ SELECT *
     WHERE RANK = 2
     ORDER BY Salary DESC
 
+--
 SELECT *
     FROM Employees
     WHERE FirstName = 'Wendy'
