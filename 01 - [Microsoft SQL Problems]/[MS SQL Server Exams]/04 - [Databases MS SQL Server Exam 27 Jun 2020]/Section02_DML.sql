@@ -1,5 +1,5 @@
 -- 2. Insert
-INSERT INTO WMS.dbo.Clients(FirstName, LastName, Phone)
+INSERT INTO Clients(FirstName, LastName, Phone)
     VALUES ('Teri', 'Ennaco', '570-889-5187'),
            ('Merlyn', 'Lawler', '201-588-7810'),
            ('Georgene', 'Montezuma', '925-615-5185'),
