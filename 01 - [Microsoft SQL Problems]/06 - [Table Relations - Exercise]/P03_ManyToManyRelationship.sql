@@ -14,6 +14,9 @@ CREATE TABLE StudentsExams
 (
     StudentID INT NOT NULL,
     ExamID    INT NOT NULL,
+    
+    CONSTRAINT PK_Composite_StudentId_ExamId
+    	PRIMARY KEY (StudentID, ExamID),
 
     CONSTRAINT FK_StudentsExams_Students
         FOREIGN KEY (StudentID)
