@@ -36,7 +36,7 @@ SELECT A.Id, A.FirstName + ' ' + A.LastName            AS FullName,
              ShortestTrip
 
 -- 8. Metropolis
-SELECT c.Id,
+SELECT TOP 10 c.Id,
        c.Name,
        c.CountryCode,
        COUNT(A.Id) AS Accounts
