@@ -16,11 +16,11 @@ INSERT INTO Parts(SerialNumber, Description, Price, VendorId)
 
 -- 3. Update
 UPDATE Jobs
-SET Status='In Progress'
-    WHERE MechanicId IN (SELECT m.MechanicId
-                             FROM WMS.dbo.Mechanics AS m
-                             WHERE m.FirstName = 'Ryan Harnos')
-      AND Status = 'Pending'
+SET MechanicId=(SELECT m.MechanicId
+                             FROM Mechanics AS m
+                             WHERE m.FirstName = 'Ryan Harnos'),
+    Status='In Progress'
+WHERE Status LIKE 'Pending'
 
 -- 4. Delete
 DELETE OrderParts
