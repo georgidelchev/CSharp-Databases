@@ -17,6 +17,12 @@ CREATE TABLE Mechanics
     Address    VARCHAR(255) NOT NULL
 )
 
+CREATE TABLE Models
+(
+    ModelId INT PRIMARY KEY IDENTITY,
+    Name    VARCHAR(50) UNIQUE
+)
+
 CREATE TABLE Jobs
 (
     JobId      INT PRIMARY KEY IDENTITY,
@@ -40,11 +46,7 @@ CREATE TABLE Jobs
             REFERENCES Mechanics (MechanicId),
 )
 
-CREATE TABLE Models
-(
-    ModelId INT PRIMARY KEY IDENTITY,
-    Name    VARCHAR(50) UNIQUE
-)
+
 
 CREATE TABLE Orders
 (
@@ -56,6 +58,12 @@ CREATE TABLE Orders
     CONSTRAINT FK_Orders_Jobs
         FOREIGN KEY (JobId)
             REFERENCES Jobs (JobId)
+)
+  
+CREATE TABLE Vendors
+(
+    VendorId INT PRIMARY KEY IDENTITY,
+    Name     VARCHAR(50) UNIQUE NOT NULL
 )
 
 CREATE TABLE Parts
@@ -88,7 +96,7 @@ CREATE TABLE OrderParts
         FOREIGN KEY (PartId)
             REFERENCES Parts (PartId)
 )
-
+  
 CREATE TABLE PartsNeeded
 (
     JobId    INT NOT NULL,
@@ -106,8 +114,4 @@ CREATE TABLE PartsNeeded
             REFERENCES Parts (PartId)
 )
 
-CREATE TABLE Vendors
-(
-    VendorId INT PRIMARY KEY IDENTITY,
-    Name     VARCHAR(50) UNIQUE NOT NULL
-)
+
