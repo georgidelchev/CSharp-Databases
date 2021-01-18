@@ -16,11 +16,9 @@ INSERT INTO Parts(SerialNumber, Description, Price, VendorId)
 
 -- 3. Update
 UPDATE Jobs
-SET MechanicId=(SELECT m.MechanicId
-                             FROM Mechanics AS m
-                             WHERE m.FirstName = 'Ryan Harnos'),
+SET MechanicId = 3,
     Status='In Progress'
-WHERE Status LIKE 'Pending'
+WHERE Status = 'Pending'
 
 -- 4. Delete
 DELETE OrderParts
