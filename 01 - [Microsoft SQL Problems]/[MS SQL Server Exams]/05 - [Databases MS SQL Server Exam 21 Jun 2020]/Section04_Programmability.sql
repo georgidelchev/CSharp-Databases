@@ -33,7 +33,7 @@ BEGIN
 
     DECLARE @HotelBaseRate DECIMAL(15, 2) = (SELECT BaseRate
                                                  FROM Hotels
-                                                 WHERE Id = 112)
+                                                 WHERE Id = @HotelId)
 
     DECLARE @TotalPrice DECIMAL(15, 2) = (@HotelBaseRate + @RoomPrice) * @People
 
@@ -47,8 +47,7 @@ SELECT dbo.Udf_Getavailableroom(94, '2015-07-26', 3)
 -- No rooms available
 
 -- 12. Switch Room
-CREATE OR
-ALTER PROCEDURE usp_SwitchRoom(@TripId INT, @TargetRoomId INT)
+CREATE PROCEDURE usp_SwitchRoom(@TripId INT, @TargetRoomId INT)
 AS
 BEGIN
     IF ((SELECT TOP 1 h.Id
