@@ -1,7 +1,6 @@
-CREATE OR
-ALTER PROCEDURE usp_CalculateFutureValueForAccount(@accountId INT, @interestRate FLOAT)
+CREATE PROCEDURE usp_CalculateFutureValueForAccount(@accountId INT, @interestRate FLOAT)
 AS
-SELECT ah.Id, ah.FirstName, ah.LastName, FORMAT(a.Balance, 'F2'),
+SELECT ah.Id, ah.FirstName, ah.LastName, a.Balance,
        dbo.ufn_CalculateFutureValue(a.Balance, @interestRate, 5)
     FROM AccountHolders AS ah
              JOIN Accounts AS a ON ah.Id = a.AccountHolderId
