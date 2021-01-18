@@ -2,14 +2,10 @@ CREATE DATABASE OnlineStore
 
 USE OnlineStore
 
-CREATE TABLE Orders
+CREATE TABLE Cities
 (
-    OrderID    INT IDENTITY PRIMARY KEY,
-    CustomerID INT NOT NULL,
-
-    CONSTRAINT FK_Orders_Customers
-        FOREIGN KEY (CustomerID)
-            REFERENCES Customers (CustomerID)
+    CityID INT IDENTITY PRIMARY KEY,
+    Name   VARCHAR(50) NOT NULL
 )
 
 CREATE TABLE Customers
@@ -23,25 +19,21 @@ CREATE TABLE Customers
         FOREIGN KEY (CityID)
             REFERENCES Cities (CityID)
 )
-
-CREATE TABLE Cities
+  
+CREATE TABLE Orders
 (
-    CityID INT IDENTITY PRIMARY KEY,
-    Name   VARCHAR(50) NOT NULL
+    OrderID    INT IDENTITY PRIMARY KEY,
+    CustomerID INT NOT NULL,
+
+    CONSTRAINT FK_Orders_Customers
+        FOREIGN KEY (CustomerID)
+            REFERENCES Customers (CustomerID)
 )
 
-CREATE TABLE OrderItems
+  CREATE TABLE ItemTypes
 (
-    OrderID INT IDENTITY PRIMARY KEY,
-    ItemID  INT NOT NULL,
-
-    CONSTRAINT FK_OrderItems_Orders
-        FOREIGN KEY (OrderID)
-            REFERENCES Orders (OrderID),
-
-    CONSTRAINT FK_OrderItems_Items
-        FOREIGN KEY (ItemID)
-            REFERENCES Items (ItemID)
+    ItemTypeID INT IDENTITY PRIMARY KEY,
+    Name       VARCHAR(50) NOT NULL
 )
 
 CREATE TABLE Items
@@ -54,10 +46,20 @@ CREATE TABLE Items
         FOREIGN KEY (ItemTypeID)
             REFERENCES ItemTypes (ItemTypeID)
 )
-
-CREATE TABLE ItemTypes
+  
+CREATE TABLE OrderItems
 (
-    ItemTypeID INT IDENTITY PRIMARY KEY,
-    Name       VARCHAR(50) NOT NULL
-)
+    OrderID INT IDENTITY PRIMARY KEY,
+    ItemID  INT NOT NULL,
+  
+    CONSTRAINT PK_Composite_OrderID_ItemID
+    	PRIMARY KEY (OrderID,ItemID)
 
+    CONSTRAINT FK_OrderItems_Orders
+        FOREIGN KEY (OrderID)
+            REFERENCES Orders (OrderID),
+
+    CONSTRAINT FK_OrderItems_Items
+        FOREIGN KEY (ItemID)
+            REFERENCES Items (ItemID)
+)
