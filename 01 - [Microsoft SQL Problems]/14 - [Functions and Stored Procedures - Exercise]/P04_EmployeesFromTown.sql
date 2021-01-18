@@ -1,5 +1,4 @@
-CREATE OR
-ALTER PROCEDURE usp_GetEmployeesFromTown(@townName NVARCHAR(MAX))
+CREATE PROCEDURE usp_GetEmployeesFromTown(@townName NVARCHAR(MAX))
 AS
 SELECT e.FirstName, e.LastName
     FROM Employees AS e
