@@ -1,7 +1,10 @@
-SELECT e.EmployeeID, e.FirstName, p.Name,
-       IIF(YEAR(p.StartDate) >= 2005, NULL, p.Name) AS ProjectName
-    FROM Employees AS e
-             INNER JOIN EmployeesProjects AS ep ON e.EmployeeID = ep.EmployeeID
-             INNER JOIN Projects AS p ON ep.ProjectID = p.ProjectID
-    WHERE e.EmployeeID = 24
-
+SELECT e.EmployeeID,
+       e.FirstName,
+       CASE
+           WHEN YEAR(p.StartDate) >= 2005 THEN NULL
+           ELSE p.Name
+           END AS [ProjectName]
+FROM Employees AS e
+         JOIN EmployeesProjects ep ON e.EmployeeID = ep.EmployeeID
+         JOIN Projects p ON ep.ProjectID = p.ProjectID
+WHERE e.EmployeeID = 24
