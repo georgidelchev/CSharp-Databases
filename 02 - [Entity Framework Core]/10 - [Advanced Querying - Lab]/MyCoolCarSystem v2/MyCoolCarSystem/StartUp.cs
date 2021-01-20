@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using MyCoolCarSystem.Data;
@@ -29,10 +30,28 @@ namespace MyCoolCarSystem
 
                 // GetPurchase(db);
 
-                var result = db
+                var result1 = db
                     .Cars
                     .FromSqlInterpolated($"SELECT * FROM Cars WHERE Price > 5000")
                     .ToList();
+
+                db.Cars
+                    .Where(c => c.Price > 5000)
+                    .Select(c => new ResultModel
+                    {
+                        FullName = c.Model.Make.Name
+                    })
+                    .ToList();
+
+                var query = EF.CompileQuery<CarDbContext, IEnumerable<ResultModel>> (db => db
+                    .Cars
+                    .Where(c => c.Price > 5000)
+                    .Select(c => new ResultModel
+                    {
+                        FullName = c.Model.Make.Name
+                    }));
+
+                var result2 = query(db);
 
                 db.SaveChanges();
             }
