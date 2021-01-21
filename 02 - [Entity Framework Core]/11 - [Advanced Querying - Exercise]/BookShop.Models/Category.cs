@@ -9,5 +9,6 @@ namespace BookShop.Models
         public string Name { get; set; }
 
         public ICollection<BookCategory> CategoryBooks { get; set; }
+            = new HashSet<BookCategory>();
     }
 }
