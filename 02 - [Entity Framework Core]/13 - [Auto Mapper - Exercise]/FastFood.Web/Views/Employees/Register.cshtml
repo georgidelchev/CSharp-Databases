@@ -1,0 +1,36 @@
+﻿@model IList<FastFood.Web.ViewModels.Employees.RegisterEmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Register Employee";
+}
+<h1 class="text-center">Register Employee</h1>
+<hr class="bg-secondary half-width" />
+<form class="mx-auto half-width" asp-controller="Employees" asp-action="Register" method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name..." name="name">
+    </div>
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" step="1" min="18" class="form-control" id="age" placeholder="Age..." name="age">
+    </div>
+    <div class="form-group">
+        <label for="position">Position</label>
+        <select id="position" class="form-control" name="PositionId">
+            @foreach (var position in Model)
+            {
+                <option value="@position.PositionId">@position.PositionName</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Address..." name="address" />
+    </div>
+    <hr class="bg-secondary half-width" />
+    <div class="button-holder d-flex justify-content-center">
+        <button type="submit" class="btn btn-success">Register</button>
+
+        <a asp-controller="Employees" asp-action="All" class="btn btn-info">Back</a>
+    </div>
+</form>
