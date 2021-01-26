@@ -1,0 +1,4656 @@
+[
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 176664996
+    },
+    "parts": [
+      {
+        "Name": "Oil pipe",
+        "Price": "100.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Daytona",
+      "TravelledDistance": 30312194
+    },
+    "parts": [
+      {
+        "Name": "Spoiler",
+        "Price": "3000.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F430",
+      "TravelledDistance": 235611505
+    },
+    "parts": [
+      {
+        "Name": "Fuel tank",
+        "Price": "100.98"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 328086491
+    },
+    "parts": [
+      {
+        "Name": "Engine",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F40",
+      "TravelledDistance": 262060470
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 455536599
+    },
+    "parts": [
+      {
+        "Name": "Overflow tank",
+        "Price": "1200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "275",
+      "TravelledDistance": 5436105
+    },
+    "parts": [
+      {
+        "Name": "Sunroof Rail",
+        "Price": "100.25"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Daytona",
+      "TravelledDistance": 351364846
+    },
+    "parts": [
+      {
+        "Name": "Choke cable",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 10791694
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F40",
+      "TravelledDistance": 69764556
+    },
+    "parts": [
+      {
+        "Name": "Door control module",
+        "Price": "421.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F40",
+      "TravelledDistance": 106050998
+    },
+    "parts": [
+      {
+        "Name": "Engine block",
+        "Price": "40.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "275",
+      "TravelledDistance": 448008546
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F430",
+      "TravelledDistance": 397106659
+    },
+    "parts": [
+      {
+        "Name": "Engine cradle",
+        "Price": "39.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 245546172
+    },
+    "parts": [
+      {
+        "Name": "Exposed bumper",
+        "Price": "1400.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Daytona",
+      "TravelledDistance": 316270662
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Door Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Diablo",
+      "TravelledDistance": 400917306
+    },
+    "parts": [
+      {
+        "Name": "Valance",
+        "Price": "1002.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Gallardo",
+      "TravelledDistance": 240371960
+    },
+    "parts": [
+      {
+        "Name": "Tappet",
+        "Price": "300.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Murciélago",
+      "TravelledDistance": 499808136
+    },
+    "parts": [
+      {
+        "Name": "Grille",
+        "Price": "144.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Gallardo",
+      "TravelledDistance": 437885784
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Outer door handle",
+        "Price": "80.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F430",
+      "TravelledDistance": 403805820
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Door Glass",
+        "Price": "100.91"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Diablo",
+      "TravelledDistance": 379116231
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 496765811
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Enzo",
+      "TravelledDistance": 497163085
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 471512014
+    },
+    "parts": [
+      {
+        "Name": "Engine",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 428581244
+    },
+    "parts": [
+      {
+        "Name": "Resonator",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 225031436
+    },
+    "parts": [
+      {
+        "Name": "Fuel rail",
+        "Price": "107.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "75",
+      "TravelledDistance": 492649694
+    },
+    "parts": [
+      {
+        "Name": "Cowl screen",
+        "Price": "1500.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 193584127
+    },
+    "parts": [
+      {
+        "Name": "Engine valve",
+        "Price": "49.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "156",
+      "TravelledDistance": 274003107
+    },
+    "parts": [
+      {
+        "Name": "Water neck",
+        "Price": "900.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 519844092
+    },
+    "parts": [
+      {
+        "Name": "Exhaust pipe",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "75",
+      "TravelledDistance": 512903265
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Window motor",
+        "Price": "22.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "275",
+      "TravelledDistance": 164216748
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "164",
+      "TravelledDistance": 385298945
+    },
+    "parts": [
+      {
+        "Name": "Engine cradle",
+        "Price": "39.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "156",
+      "TravelledDistance": 434781563
+    },
+    "parts": [
+      {
+        "Name": "Oil strainer",
+        "Price": "45.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "AR51",
+      "TravelledDistance": 273101528
+    },
+    "parts": [
+      {
+        "Name": "Door control module",
+        "Price": "421.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "75",
+      "TravelledDistance": 338929990
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Alfetta",
+      "TravelledDistance": 227419636
+    },
+    "parts": [
+      {
+        "Name": "Tappet",
+        "Price": "300.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "AR51",
+      "TravelledDistance": 452362116
+    },
+    "parts": [
+      {
+        "Name": "Fuel filter",
+        "Price": "162.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 128074332
+    },
+    "parts": [
+      {
+        "Name": "Valve housing",
+        "Price": "400.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulia",
+      "TravelledDistance": 451741545
+    },
+    "parts": [
+      {
+        "Name": "Oil strainer",
+        "Price": "45.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Daytona",
+      "TravelledDistance": 293676308
+    },
+    "parts": [
+      {
+        "Name": "Radiator gasket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 436415485
+    },
+    "parts": [
+      {
+        "Name": "Fuel pressure regulator",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Murciélago",
+      "TravelledDistance": 344136052
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Outer door handle",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Gallardo",
+      "TravelledDistance": 145640651
+    },
+    "parts": [
+      {
+        "Name": "Cylinder head",
+        "Price": "6.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom Drophead Coupé",
+      "TravelledDistance": 483029198
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Inner door handle",
+        "Price": "93.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 265890224
+    },
+    "parts": [
+      {
+        "Name": "Rocker arm",
+        "Price": "98.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Malibu",
+      "TravelledDistance": 127614006
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Caprice",
+      "TravelledDistance": 401020251
+    },
+    "parts": [
+      {
+        "Name": "Exhaust clamp and bracket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 472935290
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Caprice",
+      "TravelledDistance": 48720733
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 140281843
+    },
+    "parts": [
+      {
+        "Name": "Crank case",
+        "Price": "2.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Espace",
+      "TravelledDistance": 379189144
+    },
+    "parts": [
+      {
+        "Name": "Exposed bumper",
+        "Price": "1400.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Captur",
+      "TravelledDistance": 515034479
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Impala",
+      "TravelledDistance": 156401301
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Door Glass",
+        "Price": "100.91"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 392193253
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 17909035
+    },
+    "parts": [
+      {
+        "Name": "Water tank",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Captur",
+      "TravelledDistance": 104305182
+    },
+    "parts": [
+      {
+        "Name": "Fuel pressure regulator",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 303853081
+    },
+    "parts": [
+      {
+        "Name": "Crank case",
+        "Price": "2.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Duster",
+      "TravelledDistance": 198197668
+    },
+    "parts": [
+      {
+        "Name": "Piston",
+        "Price": "94.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Clio IV",
+      "TravelledDistance": 410170426
+    },
+    "parts": [
+      {
+        "Name": "Resonator",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 147141364
+    },
+    "parts": [
+      {
+        "Name": "Radiator gasket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Duster",
+      "TravelledDistance": 451149098
+    },
+    "parts": [
+      {
+        "Name": "Air filter",
+        "Price": "200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 305807332
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Espace",
+      "TravelledDistance": 29567678
+    },
+    "parts": [
+      {
+        "Name": "Camshaft",
+        "Price": "100.98"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Malibu",
+      "TravelledDistance": 250044709
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Impala",
+      "TravelledDistance": 19486044
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 152312063
+    },
+    "parts": [
+      {
+        "Name": "Valve cover",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Wraith",
+      "TravelledDistance": 193890679
+    },
+    "parts": [
+      {
+        "Name": "Crankshaft",
+        "Price": "4.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom Drophead Coupé",
+      "TravelledDistance": 261927306
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Inner door handle",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Wraith",
+      "TravelledDistance": 305587766
+    },
+    "parts": [
+      {
+        "Name": "Center-locking",
+        "Price": "313.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Ghost",
+      "TravelledDistance": 278821902
+    },
+    "parts": [
+      {
+        "Name": "Fan belt",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom",
+      "TravelledDistance": 327285667
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Dawn",
+      "TravelledDistance": 202157384
+    },
+    "parts": [
+      {
+        "Name": "Speed reducer",
+        "Price": "14.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Ghost",
+      "TravelledDistance": 496937828
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom",
+      "TravelledDistance": 225233067
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom Drophead Coupé",
+      "TravelledDistance": 260653592
+    },
+    "parts": [
+      {
+        "Name": "Valve housing",
+        "Price": "400.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Rolls-Royce",
+      "Model": "Phantom",
+      "TravelledDistance": 208114157
+    },
+    "parts": [
+      {
+        "Name": "Engine",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Matiz",
+      "TravelledDistance": 274054974
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Caprice",
+      "TravelledDistance": 338430654
+    },
+    "parts": [
+      {
+        "Name": "Overflow tank",
+        "Price": "1200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Cruze",
+      "TravelledDistance": 366224374
+    },
+    "parts": [
+      {
+        "Name": "Fuel tank",
+        "Price": "100.98"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Caprice",
+      "TravelledDistance": 247321209
+    },
+    "parts": [
+      {
+        "Name": "Oil pump",
+        "Price": "100.19"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 354394122
+    },
+    "parts": [
+      {
+        "Name": "Radiator pressure cap",
+        "Price": "600.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Corvette",
+      "TravelledDistance": 314764731
+    },
+    "parts": [
+      {
+        "Name": "Door lock and power door locks",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Cruze",
+      "TravelledDistance": 333261359
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Corvette",
+      "TravelledDistance": 520332790
+    },
+    "parts": [
+      {
+        "Name": "Muffler",
+        "Price": "106.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 478411784
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Window motor",
+        "Price": "22.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 255575847
+    },
+    "parts": [
+      {
+        "Name": "Exhaust flange gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "306",
+      "TravelledDistance": 138733144
+    },
+    "parts": [
+      {
+        "Name": "Steering box",
+        "Price": "103.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "308",
+      "TravelledDistance": 235475304
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "407",
+      "TravelledDistance": 497809602
+    },
+    "parts": [
+      {
+        "Name": "Tappet",
+        "Price": "300.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Citigo",
+      "TravelledDistance": 186951373
+    },
+    "parts": [
+      {
+        "Name": "Valve stem seal",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Citigo",
+      "TravelledDistance": 326326638
+    },
+    "parts": [
+      {
+        "Name": "Radiator pressure cap",
+        "Price": "600.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Rapid Spaceback",
+      "TravelledDistance": 477031551
+    },
+    "parts": [
+      {
+        "Name": "Door control module",
+        "Price": "421.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Citigo",
+      "TravelledDistance": 353678487
+    },
+    "parts": [
+      {
+        "Name": "Oil pipe",
+        "Price": "100.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 20379344
+    },
+    "parts": [
+      {
+        "Name": "Valve stem seal",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 172222867
+    },
+    "parts": [
+      {
+        "Name": "Catalytic converter",
+        "Price": "540.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Ibiza",
+      "TravelledDistance": 390958489
+    },
+    "parts": [
+      {
+        "Name": "Hinge",
+        "Price": "11.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 196618703
+    },
+    "parts": [
+      {
+        "Name": "Oil filter",
+        "Price": "200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Citigo",
+      "TravelledDistance": 334919977
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 306842982
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Inner door handle",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 485157233
+    },
+    "parts": [
+      {
+        "Name": "Distributor cap",
+        "Price": "9.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Ibiza",
+      "TravelledDistance": 197399178
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 453385478
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Inner door handle",
+        "Price": "77.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 43341591
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Quarter Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 473519569
+    },
+    "parts": [
+      {
+        "Name": "Spoiler",
+        "Price": "3000.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Ibiza",
+      "TravelledDistance": 182688172
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 508783407
+    },
+    "parts": [
+      {
+        "Name": "Rocker arm",
+        "Price": "98.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Ibiza",
+      "TravelledDistance": 333280407
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 266451047
+    },
+    "parts": [
+      {
+        "Name": "Radiator gasket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 506138915
+    },
+    "parts": [
+      {
+        "Name": "Rocker cover",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Citigo",
+      "TravelledDistance": 46712305
+    },
+    "parts": [
+      {
+        "Name": "Engine valve",
+        "Price": "49.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 57662452
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Sandero Stepway",
+      "TravelledDistance": 279714744
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Window motor",
+        "Price": "56.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Duster",
+      "TravelledDistance": 423453236
+    },
+    "parts": [
+      {
+        "Name": "Door lock and power door locks",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 315644424
+    },
+    "parts": [
+      {
+        "Name": "Fender",
+        "Price": "10.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Dokker",
+      "TravelledDistance": 294315564
+    },
+    "parts": [
+      {
+        "Name": "Rims",
+        "Price": "4020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Sandero",
+      "TravelledDistance": 410003689
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Dokker",
+      "TravelledDistance": 316948000
+    },
+    "parts": [
+      {
+        "Name": "Piston",
+        "Price": "94.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 84177042
+    },
+    "parts": [
+      {
+        "Name": "Poppet valve",
+        "Price": "88.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 459233576
+    },
+    "parts": [
+      {
+        "Name": "Water pump pulley",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Sandero",
+      "TravelledDistance": 451514728
+    },
+    "parts": [
+      {
+        "Name": "Overflow tank",
+        "Price": "1200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Dokker",
+      "TravelledDistance": 73324963
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Inner door handle",
+        "Price": "93.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Sandero",
+      "TravelledDistance": 443192096
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Door Glass",
+        "Price": "100.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Sandero Stepway",
+      "TravelledDistance": 249776933
+    },
+    "parts": [
+      {
+        "Name": "Rocker arm",
+        "Price": "98.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 71570263
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Outer door handle",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 520029040
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Quarter Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Rapid Spaceback",
+      "TravelledDistance": 371247268
+    },
+    "parts": [
+      {
+        "Name": "Muffler",
+        "Price": "106.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Rapid",
+      "TravelledDistance": 490651056
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Inner door handle",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 231485138
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Window motor",
+        "Price": "44.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Fabia",
+      "TravelledDistance": 58958961
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Door Glass",
+        "Price": "100.92"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Rapid",
+      "TravelledDistance": 267561546
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Mii",
+      "TravelledDistance": 304944609
+    },
+    "parts": [
+      {
+        "Name": "Valve stem seal",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 268240617
+    },
+    "parts": [
+      {
+        "Name": "Poppet valve",
+        "Price": "88.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 144201918
+    },
+    "parts": [
+      {
+        "Name": "Piston",
+        "Price": "94.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 505029588
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "Berlingo",
+      "TravelledDistance": 436804201
+    },
+    "parts": [
+      {
+        "Name": "Valance",
+        "Price": "1002.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 396754068
+    },
+    "parts": [
+      {
+        "Name": "Harmonic balancer",
+        "Price": "67.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "Berlingo",
+      "TravelledDistance": 242536078
+    },
+    "parts": [
+      {
+        "Name": "Distributor cap",
+        "Price": "9.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 130139399
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 167257947
+    },
+    "parts": [
+      {
+        "Name": "Water pump pulley",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "308",
+      "TravelledDistance": 63428253
+    },
+    "parts": [
+      {
+        "Name": "Piston",
+        "Price": "94.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 319350232
+    },
+    "parts": [
+      {
+        "Name": "Oil pump",
+        "Price": "100.19"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "306",
+      "TravelledDistance": 72195908
+    },
+    "parts": [
+      {
+        "Name": "Hinge",
+        "Price": "11.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C5",
+      "TravelledDistance": 32203443
+    },
+    "parts": [
+      {
+        "Name": "Piston",
+        "Price": "94.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 225997773
+    },
+    "parts": [
+      {
+        "Name": "Engine shake damper and vibration absorber",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 310013429
+    },
+    "parts": [
+      {
+        "Name": "Drive belt",
+        "Price": "3.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "407",
+      "TravelledDistance": 336906707
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 312468347
+    },
+    "parts": [
+      {
+        "Name": "Spoiler",
+        "Price": "3000.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "407",
+      "TravelledDistance": 422154829
+    },
+    "parts": [
+      {
+        "Name": "Exhaust pipe",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "306",
+      "TravelledDistance": 201912836
+    },
+    "parts": [
+      {
+        "Name": "Water pump pulley",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 179145987
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "308",
+      "TravelledDistance": 229420070
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Window motor",
+        "Price": "56.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "306",
+      "TravelledDistance": 343442559
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "308",
+      "TravelledDistance": 454503627
+    },
+    "parts": [
+      {
+        "Name": "Poppet valve",
+        "Price": "88.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C5",
+      "TravelledDistance": 347651789
+    },
+    "parts": [
+      {
+        "Name": "Transmission pan",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C8",
+      "TravelledDistance": 48263045
+    },
+    "parts": [
+      {
+        "Name": "Door lock and power door locks",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "Elysée",
+      "TravelledDistance": 4120281
+    },
+    "parts": [
+      {
+        "Name": "Choke cable",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C5",
+      "TravelledDistance": 476502389
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 339260713
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C3",
+      "TravelledDistance": 295402694
+    },
+    "parts": [
+      {
+        "Name": "Oil gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C4",
+      "TravelledDistance": 404134333
+    },
+    "parts": [
+      {
+        "Name": "Engine valve",
+        "Price": "49.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 130512554
+    },
+    "parts": [
+      {
+        "Name": "Fuel filter",
+        "Price": "162.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "Elysée",
+      "TravelledDistance": 277281794
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Quarter Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C3",
+      "TravelledDistance": 486926519
+    },
+    "parts": [
+      {
+        "Name": "Window seal",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 174494239
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C8",
+      "TravelledDistance": 118984206
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C3",
+      "TravelledDistance": 404111136
+    },
+    "parts": [
+      {
+        "Name": "Front Right Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C5",
+      "TravelledDistance": 98486390
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 498211182
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C4",
+      "TravelledDistance": 501689589
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 389207601
+    },
+    "parts": [
+      {
+        "Name": "Differential seal",
+        "Price": "109.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C3",
+      "TravelledDistance": 214064329
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 447103875
+    },
+    "parts": [
+      {
+        "Name": "Gudgeon pin",
+        "Price": "44.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C5",
+      "TravelledDistance": 38829917
+    },
+    "parts": [
+      {
+        "Name": "Crank pulley",
+        "Price": "2.80"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C4",
+      "TravelledDistance": 385550653
+    },
+    "parts": [
+      {
+        "Name": "Valance",
+        "Price": "1002.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 217089114
+    },
+    "parts": [
+      {
+        "Name": "Fuel rail",
+        "Price": "107.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C8",
+      "TravelledDistance": 309422851
+    },
+    "parts": [
+      {
+        "Name": "Clutch assembly",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Duster",
+      "TravelledDistance": 275222997
+    },
+    "parts": [
+      {
+        "Name": "Oil gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Clio IV",
+      "TravelledDistance": 225782314
+    },
+    "parts": [
+      {
+        "Name": "Exhaust flange gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 284369351
+    },
+    "parts": [
+      {
+        "Name": "Back Door Outer Door Handle",
+        "Price": "43.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "A 160",
+      "TravelledDistance": 69932764
+    },
+    "parts": [
+      {
+        "Name": "Resonator",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W212",
+      "TravelledDistance": 352906120
+    },
+    "parts": [
+      {
+        "Name": "Oil filter",
+        "Price": "200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "A 140",
+      "TravelledDistance": 127050841
+    },
+    "parts": [
+      {
+        "Name": "Crankshaft",
+        "Price": "4.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500L",
+      "TravelledDistance": 294377378
+    },
+    "parts": [
+      {
+        "Name": "Rocker cover",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Freemont",
+      "TravelledDistance": 370538088
+    },
+    "parts": [
+      {
+        "Name": "Spoiler",
+        "Price": "3000.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500 (2007) Abarth 695 Tributo Maserati",
+      "TravelledDistance": 250201285
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4",
+      "TravelledDistance": 507365630
+    },
+    "parts": [
+      {
+        "Name": "Crankshaft",
+        "Price": "4.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Freemont",
+      "TravelledDistance": 476416173
+    },
+    "parts": [
+      {
+        "Name": "Exposed bumper",
+        "Price": "1400.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "A 160 CDI",
+      "TravelledDistance": 2043780
+    },
+    "parts": [
+      {
+        "Name": "Roof rack",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500L",
+      "TravelledDistance": 414493068
+    },
+    "parts": [
+      {
+        "Name": "Grille",
+        "Price": "144.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500 (2007) Abarth 695 Tributo Maserati",
+      "TravelledDistance": 255814652
+    },
+    "parts": [
+      {
+        "Name": "Bonnet/hood",
+        "Price": "1001.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500L",
+      "TravelledDistance": 418573870
+    },
+    "parts": [
+      {
+        "Name": "Cylinder head",
+        "Price": "6.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500L",
+      "TravelledDistance": 450106773
+    },
+    "parts": [
+      {
+        "Name": "Oil gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4 Antarctica",
+      "TravelledDistance": 147310005
+    },
+    "parts": [
+      {
+        "Name": "Door latch",
+        "Price": "2331.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4",
+      "TravelledDistance": 506281363
+    },
+    "parts": [
+      {
+        "Name": "Oil pan",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Freemont",
+      "TravelledDistance": 46079092
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Outer door handle",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda",
+      "TravelledDistance": 356486400
+    },
+    "parts": [
+      {
+        "Name": "Differential seal",
+        "Price": "109.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500L",
+      "TravelledDistance": 363056661
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda",
+      "TravelledDistance": 165915677
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W212",
+      "TravelledDistance": 103410558
+    },
+    "parts": [
+      {
+        "Name": "Water pipe",
+        "Price": "44.94"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W202",
+      "TravelledDistance": 376376181
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W211",
+      "TravelledDistance": 501021413
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Door Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Taurus",
+      "TravelledDistance": 403810025
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Outer door handle",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 416418181
+    },
+    "parts": [
+      {
+        "Name": "Oil strainer",
+        "Price": "45.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 301180732
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Inner door handle",
+        "Price": "79.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Torino",
+      "TravelledDistance": 450867168
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 288047842
+    },
+    "parts": [
+      {
+        "Name": "Radiator pressure cap",
+        "Price": "600.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 344433379
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Door Glass",
+        "Price": "100.92"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W212",
+      "TravelledDistance": 55397761
+    },
+    "parts": [
+      {
+        "Name": "Transmission pan",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W124",
+      "TravelledDistance": 41606319
+    },
+    "parts": [
+      {
+        "Name": "Front fascia",
+        "Price": "11.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W204",
+      "TravelledDistance": 134106055
+    },
+    "parts": [
+      {
+        "Name": "Exhaust flange gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W210",
+      "TravelledDistance": 181844305
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W211",
+      "TravelledDistance": 130475765
+    },
+    "parts": [
+      {
+        "Name": "Oil pan",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W203",
+      "TravelledDistance": 259511953
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W212",
+      "TravelledDistance": 278080805
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W211",
+      "TravelledDistance": 132956063
+    },
+    "parts": [
+      {
+        "Name": "Valance",
+        "Price": "1002.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W202",
+      "TravelledDistance": 402675300
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W210",
+      "TravelledDistance": 461671208
+    },
+    "parts": [
+      {
+        "Name": "Oil filter",
+        "Price": "200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W124",
+      "TravelledDistance": 453245765
+    },
+    "parts": [
+      {
+        "Name": "Fuel tank",
+        "Price": "100.98"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "W212",
+      "TravelledDistance": 437173024
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Mercedes",
+      "Model": "A 170 CDI",
+      "TravelledDistance": 203728907
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Door Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Freemont",
+      "TravelledDistance": 291375480
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 37085116
+    },
+    "parts": [
+      {
+        "Name": "Turbocharger",
+        "Price": "0.40"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda",
+      "TravelledDistance": 271974888
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4 Antarctica",
+      "TravelledDistance": 388951228
+    },
+    "parts": [
+      {
+        "Name": "Engine block",
+        "Price": "40.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 277250812
+    },
+    "parts": [
+      {
+        "Name": "Heater",
+        "Price": "82.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Corsa",
+      "TravelledDistance": 267253567
+    },
+    "parts": [
+      {
+        "Name": "Fuel cooler",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 254808828
+    },
+    "parts": [
+      {
+        "Name": "Door lock and power door locks",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Insignia",
+      "TravelledDistance": 339785118
+    },
+    "parts": [
+      {
+        "Name": "Valve stem seal",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Corsa",
+      "TravelledDistance": 241891505
+    },
+    "parts": [
+      {
+        "Name": "Distributor cap",
+        "Price": "9.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 109910837
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Astra",
+      "TravelledDistance": 349837452
+    },
+    "parts": [
+      {
+        "Name": "Rocker cover",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Vectra",
+      "TravelledDistance": 433351992
+    },
+    "parts": [
+      {
+        "Name": "Steering box",
+        "Price": "103.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F20",
+      "TravelledDistance": 401291910
+    },
+    "parts": [
+      {
+        "Name": "Sunroof",
+        "Price": "103.43"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Insignia",
+      "TravelledDistance": 168539389
+    },
+    "parts": [
+      {
+        "Name": "Heat shield",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Corsa",
+      "TravelledDistance": 282499542
+    },
+    "parts": [
+      {
+        "Name": "Harmonic balancer",
+        "Price": "67.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Astra",
+      "TravelledDistance": 31468479
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Window motor",
+        "Price": "22.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Insignia",
+      "TravelledDistance": 225253817
+    },
+    "parts": [
+      {
+        "Name": "Valve housing",
+        "Price": "400.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Vectra",
+      "TravelledDistance": 238042093
+    },
+    "parts": [
+      {
+        "Name": "Fuel filter",
+        "Price": "162.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Kadet",
+      "TravelledDistance": 31737446
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Corsa",
+      "TravelledDistance": 347259126
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Window motor",
+        "Price": "144.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Astra",
+      "TravelledDistance": 156191509
+    },
+    "parts": [
+      {
+        "Name": "Front Right Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Astra",
+      "TravelledDistance": 516628215
+    },
+    "parts": [
+      {
+        "Name": "Poppet valve",
+        "Price": "88.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 111313670
+    },
+    "parts": [
+      {
+        "Name": "Fascia",
+        "Price": "100.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F25",
+      "TravelledDistance": 476132712
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M5 F10",
+      "TravelledDistance": 140799461
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F04",
+      "TravelledDistance": 418839575
+    },
+    "parts": [
+      {
+        "Name": "Coolant hose ",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "500 (2007) Abarth 695 Tributo Maserati",
+      "TravelledDistance": 73917184
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Door Glass",
+        "Price": "100.91"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4 Antarctica",
+      "TravelledDistance": 501838637
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Quarter Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda",
+      "TravelledDistance": 1591174
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Inner door handle",
+        "Price": "79.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M6 E63",
+      "TravelledDistance": 243205800
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F20",
+      "TravelledDistance": 171765152
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Window motor",
+        "Price": "56.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F04",
+      "TravelledDistance": 265166885
+    },
+    "parts": [
+      {
+        "Name": "Roof rack",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "X6 M",
+      "TravelledDistance": 183346013
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Door Glass",
+        "Price": "100.91"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F20",
+      "TravelledDistance": 284809463
+    },
+    "parts": [
+      {
+        "Name": "Radiator gasket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "X6 M",
+      "TravelledDistance": 227443571
+    },
+    "parts": [
+      {
+        "Name": "Bonnet/hood",
+        "Price": "1001.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M5 F10",
+      "TravelledDistance": 435603343
+    },
+    "parts": [
+      {
+        "Name": "Engine shake damper and vibration absorber",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F04",
+      "TravelledDistance": 443756363
+    },
+    "parts": [
+      {
+        "Name": "Oil pipe",
+        "Price": "100.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "F20",
+      "TravelledDistance": 487897422
+    },
+    "parts": [
+      {
+        "Name": "Roof rack",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M6 E63",
+      "TravelledDistance": 69863204
+    },
+    "parts": [
+      {
+        "Name": "Water pump pulley",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M6 E63",
+      "TravelledDistance": 57189891
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "E67",
+      "TravelledDistance": 476830509
+    },
+    "parts": [
+      {
+        "Name": "Cylinder head",
+        "Price": "6.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "X6 M",
+      "TravelledDistance": 322292247
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Inner door handle",
+        "Price": "77.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "1M Coupe",
+      "TravelledDistance": 39826890
+    },
+    "parts": [
+      {
+        "Name": "Fan belt",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M Roadster E85",
+      "TravelledDistance": 475685374
+    },
+    "parts": [
+      {
+        "Name": "Front Right Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "E88",
+      "TravelledDistance": 27453411
+    },
+    "parts": [
+      {
+        "Name": "Door latch",
+        "Price": "2331.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4",
+      "TravelledDistance": 94291695
+    },
+    "parts": [
+      {
+        "Name": "Radiator pressure cap",
+        "Price": "600.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Duster",
+      "TravelledDistance": 297581436
+    },
+    "parts": [
+      {
+        "Name": "Clutch assembly",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Torino",
+      "TravelledDistance": 440155426
+    },
+    "parts": [
+      {
+        "Name": "Front Right Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "GT40",
+      "TravelledDistance": 85557373
+    },
+    "parts": [
+      {
+        "Name": "Fuel rail",
+        "Price": "107.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 363918741
+    },
+    "parts": [
+      {
+        "Name": "Unexposed bumper",
+        "Price": "1003.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 407562858
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 197599645
+    },
+    "parts": [
+      {
+        "Name": "Window motor",
+        "Price": "123.49"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 393081223
+    },
+    "parts": [
+      {
+        "Name": "Door water-shield",
+        "Price": "123.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 135897329
+    },
+    "parts": [
+      {
+        "Name": "Quarter panel",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 457486023
+    },
+    "parts": [
+      {
+        "Name": "Overflow tank",
+        "Price": "1200.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 91596434
+    },
+    "parts": [
+      {
+        "Name": "Rocker cover",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 284500319
+    },
+    "parts": [
+      {
+        "Name": "Rocker arm",
+        "Price": "98.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 326260222
+    },
+    "parts": [
+      {
+        "Name": "Front Right Outer door handle",
+        "Price": "999.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 312316612
+    },
+    "parts": [
+      {
+        "Name": "Valve housing",
+        "Price": "400.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 12420594
+    },
+    "parts": [
+      {
+        "Name": "Engine",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 59351269
+    },
+    "parts": [
+      {
+        "Name": "Timing tape",
+        "Price": "40.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 118192217
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 368986707
+    },
+    "parts": [
+      {
+        "Name": "Transmission pan",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 94210828
+    },
+    "parts": [
+      {
+        "Name": "Oil pipe",
+        "Price": "100.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 397831570
+    },
+    "parts": [
+      {
+        "Name": "Bonnet/hood",
+        "Price": "1001.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 157810668
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 191675886
+    },
+    "parts": [
+      {
+        "Name": "Air blower",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 486257730
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Inner door handle",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Versa",
+      "TravelledDistance": 475666874
+    },
+    "parts": [
+      {
+        "Name": "Water pump pulley",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 179796793
+    },
+    "parts": [
+      {
+        "Name": "Oil pipe",
+        "Price": "100.29"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 55268939
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Quarter Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Haval H6",
+      "TravelledDistance": 515863753
+    },
+    "parts": [
+      {
+        "Name": "Heater",
+        "Price": "82.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Haval M4",
+      "TravelledDistance": 338663381
+    },
+    "parts": [
+      {
+        "Name": "Door latch",
+        "Price": "2331.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Wingle 5",
+      "TravelledDistance": 495225064
+    },
+    "parts": [
+      {
+        "Name": "Choke cable",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Steed 3",
+      "TravelledDistance": 431796268
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "H8",
+      "TravelledDistance": 261462447
+    },
+    "parts": [
+      {
+        "Name": "Drive belt",
+        "Price": "3.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "H2",
+      "TravelledDistance": 438447396
+    },
+    "parts": [
+      {
+        "Name": "Fender",
+        "Price": "10.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Haval M4",
+      "TravelledDistance": 515523178
+    },
+    "parts": [
+      {
+        "Name": "Crank case",
+        "Price": "2.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "H2",
+      "TravelledDistance": 357701772
+    },
+    "parts": [
+      {
+        "Name": "Differential clutch",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Versa",
+      "TravelledDistance": 317911903
+    },
+    "parts": [
+      {
+        "Name": "Crank pulley",
+        "Price": "2.80"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 122310701
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Window motor",
+        "Price": "56.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Versa",
+      "TravelledDistance": 440899435
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 187152855
+    },
+    "parts": [
+      {
+        "Name": "Fuel pressure regulator",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 125157902
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Inner door handle",
+        "Price": "93.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Rogue",
+      "TravelledDistance": 310364796
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Door Glass",
+        "Price": "100.92"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 95799498
+    },
+    "parts": [
+      {
+        "Name": "Muffler",
+        "Price": "106.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 274678949
+    },
+    "parts": [
+      {
+        "Name": "Muffler",
+        "Price": "106.90"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 424117627
+    },
+    "parts": [
+      {
+        "Name": "Water neck",
+        "Price": "900.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Rogue",
+      "TravelledDistance": 114846152
+    },
+    "parts": [
+      {
+        "Name": "Differential clutch",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "GT-R",
+      "TravelledDistance": 157249056
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Outer door handle",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 193362513
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 248943927
+    },
+    "parts": [
+      {
+        "Name": "Front Right Side Inner door handle",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 126607020
+    },
+    "parts": [
+      {
+        "Name": "Transmission pan",
+        "Price": "106.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 89596390
+    },
+    "parts": [
+      {
+        "Name": "Hinge",
+        "Price": "11.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 356361379
+    },
+    "parts": [
+      {
+        "Name": "Grille",
+        "Price": "144.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 142914233
+    },
+    "parts": [
+      {
+        "Name": "Rims",
+        "Price": "4020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 426059006
+    },
+    "parts": [
+      {
+        "Name": "Water neck",
+        "Price": "900.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 64266329
+    },
+    "parts": [
+      {
+        "Name": "Engine cradle",
+        "Price": "39.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 431663130
+    },
+    "parts": [
+      {
+        "Name": "Fuel filter",
+        "Price": "162.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 508864707
+    },
+    "parts": [
+      {
+        "Name": "Oil pan",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Ranger",
+      "TravelledDistance": 10053919
+    },
+    "parts": [
+      {
+        "Name": "Front clip",
+        "Price": "100.00"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 240662780
+    },
+    "parts": [
+      {
+        "Name": "Oil pan",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Yaris",
+      "TravelledDistance": 285031257
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Ranger",
+      "TravelledDistance": 293626832
+    },
+    "parts": [
+      {
+        "Name": "Welded assembly",
+        "Price": "1020.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 470875447
+    },
+    "parts": [
+      {
+        "Name": "Front Left Side Inner door handle",
+        "Price": "77.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Taurus",
+      "TravelledDistance": 176314890
+    },
+    "parts": [
+      {
+        "Name": "Exhaust flange gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 99638597
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Window motor",
+        "Price": "22.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 232084221
+    },
+    "parts": [
+      {
+        "Name": "Heat shield",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Torino",
+      "TravelledDistance": 85841328
+    },
+    "parts": [
+      {
+        "Name": "Decklid",
+        "Price": "1060.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 251295244
+    },
+    "parts": [
+      {
+        "Name": "Hinge",
+        "Price": "11.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "GT40",
+      "TravelledDistance": 300191400
+    },
+    "parts": [
+      {
+        "Name": "Heater",
+        "Price": "82.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 136428787
+    },
+    "parts": [
+      {
+        "Name": "Coolant hose ",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Torino",
+      "TravelledDistance": 25860756
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Outer door handle",
+        "Price": "80.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 141313729
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 151868293
+    },
+    "parts": [
+      {
+        "Name": "Fan blade",
+        "Price": "150.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 230556000
+    },
+    "parts": [
+      {
+        "Name": "Distributor",
+        "Price": "7.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 332788407
+    },
+    "parts": [
+      {
+        "Name": "Harmonic balancer",
+        "Price": "67.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Yaris",
+      "TravelledDistance": 17169781
+    },
+    "parts": [
+      {
+        "Name": "Oil gasket",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 424624116
+    },
+    "parts": [
+      {
+        "Name": "Water pump",
+        "Price": "44.93"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 425742267
+    },
+    "parts": [
+      {
+        "Name": "Choke cable",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 8676482
+    },
+    "parts": [
+      {
+        "Name": "Rear Right Side Outer door handle",
+        "Price": "80.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Yaris",
+      "TravelledDistance": 18776234
+    },
+    "parts": [
+      {
+        "Name": "Cylinder head",
+        "Price": "6.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 174113404
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Inner door handle",
+        "Price": "93.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 208912076
+    },
+    "parts": [
+      {
+        "Name": "Water pipe",
+        "Price": "44.94"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 333412512
+    },
+    "parts": [
+      {
+        "Name": "Valve housing",
+        "Price": "400.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Yaris",
+      "TravelledDistance": 439493520
+    },
+    "parts": [
+      {
+        "Name": "Cooling fan",
+        "Price": "120.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 196587490
+    },
+    "parts": [
+      {
+        "Name": "Quarter panel",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 78228066
+    },
+    "parts": [
+      {
+        "Name": "Cowl screen",
+        "Price": "1500.34"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 485584239
+    },
+    "parts": [
+      {
+        "Name": "Exhaust clamp and bracket",
+        "Price": "140.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 147379564
+    },
+    "parts": [
+      {
+        "Name": "Grille",
+        "Price": "144.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 280666484
+    },
+    "parts": [
+      {
+        "Name": "Exhaust pipe",
+        "Price": "130.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 217630531
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Door Glass",
+        "Price": "100.66"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 328571532
+    },
+    "parts": [
+      {
+        "Name": "Fan belt",
+        "Price": "10.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Corolla",
+      "TravelledDistance": 172436753
+    },
+    "parts": [
+      {
+        "Name": "Thermostat",
+        "Price": "1050.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 65891391
+    },
+    "parts": [
+      {
+        "Name": "Windshield",
+        "Price": "100.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 486872832
+    },
+    "parts": [
+      {
+        "Name": "Cylinder head",
+        "Price": "6.99"
+      }
+    ]
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 231160691
+    },
+    "parts": [
+      {
+        "Name": "Rear Left Side Inner door handle",
+        "Price": "93.99"
+      }
+    ]
+  }
+]
