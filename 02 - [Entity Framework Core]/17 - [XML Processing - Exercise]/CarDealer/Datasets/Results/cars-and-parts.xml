@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-16"?>
+<cars>
+  <car make="BMW" model="1M Coupe" travelled-distance="0">
+    <parts>
+      <part name="Door control module" price="421.99" />
+      <part name="Exhaust pipe" price="130.99" />
+      <part name="Transmission pan" price="106.99" />
+      <part name="Poppet valve" price="88.99" />
+      <part name="Distributor cap" price="9.99" />
+    </parts>
+  </car>
+  <car make="Opel" model="Astra" travelled-distance="0">
+    <parts>
+      <part name="Oil strainer" price="45.29" />
+      <part name="Water neck o-ring" price="43.99" />
+      <part name="Engine block" price="40.99" />
+    </parts>
+  </car>
+  <car make="Opel" model="Astra" travelled-distance="0">
+    <parts>
+      <part name="Transmission pan" price="106.99" />
+      <part name="Steering arm" price="104.99" />
+      <part name="Window seal" price="100.99" />
+    </parts>
+  </car>
+  <car make="Opel" model="Astra" travelled-distance="0">
+    <parts>
+      <part name="Thermostat" price="1050.99" />
+      <part name="Door seal" price="444.99" />
+      <part name="Air filter" price="200.99" />
+    </parts>
+  </car>
+  <car make="Opel" model="Astra" travelled-distance="0">
+    <parts>
+      <part name="Cowl screen" price="1500.34" />
+      <part name="Catalytic converter" price="540.99" />
+      <part name="Oil pan" price="140.99" />
+      <part name="Steering arm" price="104.99" />
+      <part name="Sunroof" price="103.43" />
+      <part name="Engine" price="100.99" />
+      <part name="Piston" price="94.99" />
+      <part name="Front Left Side Inner door handle" price="77.99" />
+      <part name="Fender" price="10.34" />
+      <part name="Crank pulley" price="2.80" />
+    </parts>
+  </car>
+</cars>
