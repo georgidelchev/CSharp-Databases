@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Users>
+  <User>
+    <firstName>Almire</firstName>
+    <lastName>Ainslee</lastName>
+    <soldProducts>
+      <Product>
+        <name>olio activ mouthwash</name>
+        <price>206.06</price>
+      </Product>
+      <Product>
+        <name>Acnezzol Base</name>
+        <price>710.60</price>
+      </Product>
+      <Product>
+        <name>ENALAPRIL MALEATE</name>
+        <price>210.42</price>
+      </Product>
+    </soldProducts>
+  </User>
+  <User>
+    <firstName>Etta</firstName>
+    <lastName>Arnaudi</lastName>
+    <soldProducts>
+      <Product>
+        <name>pain relief</name>
+        <price>938.23</price>
+      </Product>
+      <Product>
+        <name>Ketorolac Tromethamine</name>
+        <price>608.18</price>
+      </Product>
+      <Product>
+        <name>Agaricus Equisetum Special Order</name>
+        <price>585.93</price>
+      </Product>
+      <Product>
+        <name>Flumazenil</name>
+        <price>1151.37</price>
+      </Product>
+      <Product>
+        <name>Ringers</name>
+        <price>1054.37</price>
+      </Product>
+      <Product>
+        <name>Yellow Jacket hymenoptera venom Venomil Diagnostic</name>
+        <price>23.58</price>
+      </Product>
+    </soldProducts>
+  </User>
+  <User>
+    <firstName>Jania</firstName>
+    <lastName>Atger</lastName>
+    <soldProducts>
+      <Product>
+        <name>Carbon Dioxide Oxygen Mixture</name>
+        <price>95.49</price>
+      </Product>
+      <Product>
+        <name>Allopurinol</name>
+        <price>518.50</price>
+      </Product>
+      <Product>
+        <name>ROPINIROLE HYDROCHLORIDE</name>
+        <price>266.44</price>
+      </Product>
+      <Product>
+        <name>Almond</name>
+        <price>367.32</price>
+      </Product>
+    </soldProducts>
+  </User>
+  <User>
+    <firstName>Duky</firstName>
+    <lastName>Bowller</lastName>
+    <soldProducts>
+      <Product>
+        <name>Fluoxetine</name>
+        <price>385.37</price>
+      </Product>
+      <Product>
+        <name>Extra Strength Pain Reliever PM</name>
+        <price>542.72</price>
+      </Product>
+      <Product>
+        <name>Propranolol Hydrochloride</name>
+        <price>546.95</price>
+      </Product>
+      <Product>
+        <name>CARBIDOPA AND LEVODOPA</name>
+        <price>441.64</price>
+      </Product>
+      <Product>
+        <name>Peter Island Continous sunscreen kids</name>
+        <price>471.30</price>
+      </Product>
+      <Product>
+        <name>CEDAX</name>
+        <price>342.86</price>
+      </Product>
+    </soldProducts>
+  </User>
+  <User>
+    <firstName>Clemmy</firstName>
+    <lastName>Bremmer</lastName>
+    <soldProducts>
+      <Product>
+        <name>Cefadroxil</name>
+        <price>1302.20</price>
+      </Product>
+      <Product>
+        <name>Fosphenytoin Sodium</name>
+        <price>1334.06</price>
+      </Product>
+    </soldProducts>
+  </User>
+</Users>
