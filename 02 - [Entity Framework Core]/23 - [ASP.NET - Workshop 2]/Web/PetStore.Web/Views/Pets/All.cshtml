@@ -1,0 +1,66 @@
+﻿@model PetStore.Web.Models.View_Models.Pet.AllPetsListingViewModel
+
+<h1>All Pets</h1>
+
+<div>
+    @if (!Model.PreviousDisabled)
+    {
+        <a href="/Pets/All?page=@Model.PreviousPage" class="float-left btn btn-info">Prev</a>
+    }
+
+    @if (!Model.NextDisabled)
+    {
+        <a href="/Pets/All?page=@Model.NextPage" class="float-right btn btn-info">Next</a>
+    }
+</div>
+
+<br />
+<br />
+<br />
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Category
+        </th>
+        <th>
+            Breed
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+        </th>
+    </tr>
+
+    @foreach (var pet in Model.Pets)
+    {
+        <tr>
+            <td>
+                @pet.Id
+            </td>
+            <td>
+                @pet.Name
+            </td>
+            <td>
+                @pet.Category
+            </td>
+            <td>
+                @pet.Breed
+            </td>
+            <td>
+                @pet.Price$
+            </td>
+            <td class="text-center">
+                <a href="/Pets/Delete/@pet.Id" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
