@@ -72,8 +72,3 @@ SELECT p.PartId,
     WHERE J.Status != 'Finished'
       AND (p.StockQty + IIF(O.Delivered = 0, Op.Quantity, 0)) < Pn.Quantity
     ORDER BY p.PartId
-                            
--- 11. Place Order
-      
-                            
--- 12. Cost of Order
