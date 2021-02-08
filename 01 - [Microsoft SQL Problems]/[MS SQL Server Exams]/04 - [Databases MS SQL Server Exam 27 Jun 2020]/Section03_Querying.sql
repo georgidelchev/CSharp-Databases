@@ -31,12 +31,12 @@ SELECT m.FirstName + ' ' + m.LastName                AS Mechanic,
     ORDER BY m.MechanicId
 
 -- 8. Available Mechanics
-SELECT m.FirstName + ' ' + m.LastName AS Available
+SELECT m.FirstName + ' ' + m.LastName
     FROM Mechanics AS m
-             JOIN Jobs J
-                  ON m.MechanicId = J.MechanicId
+             LEFT JOIN Jobs J
+                       ON m.MechanicId = J.MechanicId
     WHERE J.Status = 'Finished'
-    GROUP BY m.FirstName, m.LastName, m.MechanicId
+       OR J.JobId IS NULL
     ORDER BY m.MechanicId
 
 -- 9. Past Expenses
