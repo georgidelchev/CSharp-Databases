@@ -73,27 +73,26 @@ BEGIN CATCH
 END CATCH
 
 -- 12. Cost Of Order
-CREATE OR
-ALTER FUNCTION udf_GetCost(@jobId INT)
-    RETURNS DECIMAL(18, 2) AS
+CREATE FUNCTION udf_GetCost(@JobId INT)
+    RETURNS DECIMAL(18, 2)
 BEGIN
-    DECLARE @sum DECIMAL(18, 2) = (SELECT SUM(P.Price) AS Result
-                                       FROM Jobs AS j
-                                                JOIN PartsNeeded Pn
-                                                     ON j.JobId = Pn.JobId
-                                                JOIN Parts P
-                                                     ON P.PartId = Pn.PartId
-                                       WHERE j.JobId = @jobId)
+
+    DECLARE @sum DECIMAL(18, 2) = (SELECT SUM(p.Price)
+                                       FROM Parts AS p
+                                                JOIN OrderParts Op
+                                                     ON p.PartId = Op.PartId
+                                                JOIN Orders O
+                                                     ON O.OrderId = Op.OrderId
+                                                JOIN Jobs J
+                                                     ON O.JobId = J.JobId
+                                       WHERE J.JobId = @JobId)
 
     IF (@sum IS NULL)
-        RETURN 0
+        BEGIN
+            SET @sum = 0
+        END
 
     RETURN @sum
 END
-GO
 
 SELECT dbo.udf_GetCost(1)
-SELECT dbo.udf_GetCost(3)
--- Id  Result
--- 1   91.86
--- 3   40.97
