@@ -55,36 +55,25 @@ SELECT j.JobId,
              j.JobId
 
 -- 10. Missing Parts
--- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE
--- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE
--- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE-- NOT DONE
-SELECT p.PartId       AS PartId,
-       P2.Description AS Discription,
-       P2.StockQty    AS InStock
-    FROM Parts AS p
-             JOIN PartsNeeded Pn
-                  ON p.PartId = Pn.PartId
-             JOIN Parts P2
-                  ON P2.PartId = Pn.PartId
-             JOIN Jobs J
-                  ON J.JobId = Pn.JobId
-    WHERE J.Status = 'In Progress'
-    ORDER BY p.PartId
-
-SELECT P.PartId,
-       P.Description,
+SELECT p.PartId,
+       p.Description,
        Pn.Quantity,
-       P.StockQty,
-       COUNT(O.OrderId)
-    FROM Jobs AS j
-             JOIN PartsNeeded Pn
-                  ON j.JobId = Pn.JobId
-             JOIN Parts P
-                  ON P.PartId = Pn.PartId
-             JOIN Orders O ON j.JobId = O.JobId
-    WHERE j.Status = 'In Progress'
-      AND Pn.Quantity > P.StockQty
-    GROUP BY P.PartId,
-             P.Description,
-             Pn.Quantity,
-             P.StockQty
+       p.StockQty,
+       IIF(O.Delivered = 0, Op.Quantity, 0)
+    FROM Parts AS p
+             LEFT JOIN PartsNeeded Pn
+                       ON p.PartId = Pn.PartId
+             LEFT JOIN OrderParts Op
+                       ON p.PartId = Op.PartId
+             LEFT JOIN Orders O
+                       ON O.OrderId = Op.OrderId
+             LEFT JOIN Jobs J
+                       ON J.JobId = Pn.JobId
+    WHERE J.Status != 'Finished'
+      AND (p.StockQty + IIF(O.Delivered = 0, Op.Quantity, 0)) < Pn.Quantity
+    ORDER BY p.PartId
+                            
+-- 11. Place Order
+      
+                            
+-- 12. Cost of Order
