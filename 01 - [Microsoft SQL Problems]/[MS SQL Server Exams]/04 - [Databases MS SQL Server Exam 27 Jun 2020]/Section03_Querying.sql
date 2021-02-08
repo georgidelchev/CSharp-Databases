@@ -41,13 +41,14 @@ SELECT m.FirstName + ' ' + m.LastName
 
 -- 9. Past Expenses
 SELECT j.JobId,
-       SUM(P.Price) AS Total
+       ISNULL(SUM(P.Price * Op.Quantity), 0.00) AS Total
     FROM Jobs AS j
-             JOIN Orders O
-                  ON j.JobId = O.JobId
-             JOIN OrderParts Op
-                  ON O.OrderId = Op.OrderId
-             JOIN Parts P ON P.PartId = Op.PartId
+             LEFT JOIN Orders O
+                       ON j.JobId = O.JobId
+             LEFT JOIN OrderParts Op
+                       ON O.OrderId = Op.OrderId
+             LEFT JOIN Parts P
+                       ON P.PartId = Op.PartId
     WHERE j.Status = 'Finished'
     GROUP BY j.JobId
     ORDER BY Total DESC,
