@@ -9,7 +9,7 @@ namespace P01_StudentSystem.Data.Models
 
         public string Content { get; set; }
 
-        public ContentTypes ContentType { get; set; }
+        public ContentType ContentType { get; set; }
 
         public DateTime SubmissionTime { get; set; }
 

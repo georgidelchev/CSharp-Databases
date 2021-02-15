@@ -10,7 +10,7 @@ namespace P01_StudentSystem.Data.Models
 
         public string Url { get; set; }
 
-        public ResourceTypes ResourceType { get; set; }
+        public ResourceType ResourceType { get; set; }
 
         public int CourseId { get; set; }
 

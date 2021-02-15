@@ -1,6 +1,6 @@
 ﻿namespace P01_StudentSystem.Data.Enumerations
 {
-    public enum ContentTypes
+    public enum ContentType
     {
         Application = 0,
         Pdf = 1,

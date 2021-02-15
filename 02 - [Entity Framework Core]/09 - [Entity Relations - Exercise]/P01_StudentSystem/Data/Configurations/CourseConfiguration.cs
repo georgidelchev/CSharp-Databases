@@ -32,6 +32,7 @@ namespace P01_StudentSystem.Data
 
             course
                 .Property(c => c.Price)
+				.HasColumnType("DECIMAL (18, 2)")
                 .IsRequired(true);
         }
     }

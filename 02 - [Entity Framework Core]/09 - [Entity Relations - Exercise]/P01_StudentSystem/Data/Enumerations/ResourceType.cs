@@ -1,6 +1,6 @@
 ﻿namespace P01_StudentSystem.Data.Enumerations
 {
-    public enum ResourceTypes
+    public enum ResourceType
     {
         Video = 0,
         Presentation = 1,

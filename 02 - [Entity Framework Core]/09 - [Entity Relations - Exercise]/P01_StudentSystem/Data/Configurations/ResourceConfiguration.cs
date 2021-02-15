@@ -24,8 +24,7 @@ namespace P01_StudentSystem.Data
 
             resource
                 .Property(r => r.ResourceType)
-                .IsRequired(true)
-                .IsUnicode(true);
+                .IsRequired(true);
 
             resource
                 .HasOne(r => r.Course)
