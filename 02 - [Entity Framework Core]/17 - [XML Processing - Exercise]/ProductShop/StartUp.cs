@@ -21,64 +21,13 @@ namespace ProductShop
 
         public static void Main(string[] args)
         {
-            var db = new ProductShopContext();
-
-            using (db)
-            {
-                // TODO ResetDatabase(db);
-
-                // TODO Initialize Mapper
-                InitializeMapper();
-
-                // TODO Problem 01 - Import Users
-                //var inputXml = File.ReadAllText($"{DATASETS_DIRECTORY_PATH}/users.xml");
-
-                //Console.WriteLine(ImportUsers(db, inputXml));
-
-                // TODO Problem 02 - Import Products
-                //var inputXml = File.ReadAllText($"{DATASETS_DIRECTORY_PATH}/products.xml");
-
-                //Console.WriteLine(ImportProducts(db, inputXml));
-
-                // TODO Problem 03 - Import Categories
-                //var inputXml = File.ReadAllText($"{DATASETS_DIRECTORY_PATH}/categories.xml");
-
-                //Console.WriteLine(ImportCategories(db, inputXml));
-
-                // TODO Problem 04 - Import Categories and Products
-                //var inputXml = File.ReadAllText($"{DATASETS_DIRECTORY_PATH}/categories-products.xml");
-
-                //Console.WriteLine(ImportCategoryProducts(db, inputXml));
-
-                // TODO Problem 05 - Export Products In Range
-                //var result = GetProductsInRange(db);
-
-                //File.WriteAllText($"{RESULTS_DIRECTORY_PATH}/products-in-range.xml", result);
-
-                // TODO Problem 06 - Export Sold Products
-                //var result = GetSoldProducts(db);
-
-                //File.WriteAllText($"{RESULTS_DIRECTORY_PATH}/users-sold-products.xml", result);
-
-                // TODO Problem 07 - Export Get Categories By Products Count
-                //var result = GetCategoriesByProductsCount(db);
-
-                //File.WriteAllText($"{RESULTS_DIRECTORY_PATH}/categories-by-products.xml", result);
-
-                // TODO Problem 08 - Export Users and Products
-                var result = GetUsersWithProducts(db);
-
-                File.WriteAllText($"{RESULTS_DIRECTORY_PATH}/users-and-products.xml", result);
-            }
         }
-
-        // TODO Problem 08 - Export Users and Products
+		
+		// TODO Problem 08 - Export Users and Products
         public static string GetUsersWithProducts(ProductShopContext context)
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var users = new UserRootDTO()
                 {
 
@@ -120,7 +69,6 @@ namespace ProductShop
                 {
                     xmlSerializer.Serialize(writer, users, namespaces);
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -130,8 +78,6 @@ namespace ProductShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var categories = context
                     .Categories
                     .ProjectTo<ExportCategoriesByProductsCountDTO>()
@@ -153,7 +99,6 @@ namespace ProductShop
                 {
                     xmlSerializer.Serialize(writer, categories, namespaces);
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -163,8 +108,6 @@ namespace ProductShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var users = context
                     .Users
                     .ProjectTo<ExportUserDTO>()
@@ -186,7 +129,6 @@ namespace ProductShop
                 {
                     xmlSerializer.Serialize(writer, users, namespaces);
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -196,8 +138,6 @@ namespace ProductShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var products = context
                     .Products
                     .Where(p => p.Price >= 500 &&
@@ -221,16 +161,32 @@ namespace ProductShop
                 {
                     xmlSerializer.Serialize(writer, products, namespaces);
                 }
-            }
 
             return sb.ToString().Trim();
         }
 
-        // TODO Problem 04 - Import Categories Products
+        
+                var xmlSerializer = new XmlSerializer(typeof(List<ImportUserDTO>), new XmlRootAttribute("Users"));
+
+                var reader = new StringReader(inputXml);
+
+                using (reader)
+                {
+                    var userDtos = (List<ImportUserDTO>)xmlSerializer.Deserialize(reader);
+
+                    var users = Mapper.Map<List<User>>(userDtos);
+
+                    context.AddRange(users);
+
+                    context.SaveChanges();
+
+                    return $"Successfully imported {users.Count}";
+                }
+        }
+		
+		// TODO Problem 04 - Import Categories Products
         public static string ImportCategoryProducts(ProductShopContext context, string inputXml)
         {
-            using (context)
-            {
                 var xmlSerializer = new XmlSerializer(typeof(List<ImportCategoryProductDTO>),
                     new XmlRootAttribute("CategoryProducts"));
 
@@ -251,14 +207,11 @@ namespace ProductShop
 
                     return $"Successfully imported {categoryProducts.Count}";
                 }
-            }
         }
 
         // TODO Problem 03 - Import Categories
         public static string ImportCategories(ProductShopContext context, string inputXml)
         {
-            using (context)
-            {
                 var xmlSerializer =
                     new XmlSerializer(typeof(List<ImportCategoryDTO>), new XmlRootAttribute("Categories"));
 
@@ -278,14 +231,11 @@ namespace ProductShop
 
                     return $"Successfully imported {categories.Count}";
                 }
-            }
         }
 
         // TODO Problem 02 - Import Products
         public static string ImportProducts(ProductShopContext context, string inputXml)
         {
-            using (context)
-            {
                 var xmlSerializer = new XmlSerializer(typeof(List<ImportProductDTO>), new XmlRootAttribute("Products"));
 
                 var reader = new StringReader(inputXml);
@@ -302,32 +252,11 @@ namespace ProductShop
 
                     return $"Successfully imported {products.Count}";
                 }
-            }
         }
 
         // TODO Problem 01 - Import Users
         public static string ImportUsers(ProductShopContext context, string inputXml)
         {
-            using (context)
-            {
-                var xmlSerializer = new XmlSerializer(typeof(List<ImportUserDTO>), new XmlRootAttribute("Users"));
-
-                var reader = new StringReader(inputXml);
-
-                using (reader)
-                {
-                    var userDtos = (List<ImportUserDTO>)xmlSerializer.Deserialize(reader);
-
-                    var users = Mapper.Map<List<User>>(userDtos);
-
-                    context.AddRange(users);
-
-                    context.SaveChanges();
-
-                    return $"Successfully imported {users.Count}";
-                }
-            }
-        }
 
         // TODO Initializing the Mapper
         private static void InitializeMapper()
@@ -341,14 +270,11 @@ namespace ProductShop
         // TODO Reset Database to empty!
         private static void ResetDatabase(ProductShopContext db)
         {
-            using (db)
-            {
                 db.Database.EnsureDeleted();
                 Console.WriteLine("Db was successfully deleted!");
 
                 db.Database.EnsureCreated();
                 Console.WriteLine("Db was successfully created!");
-            }
         }
     }
 }
