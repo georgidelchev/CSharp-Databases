@@ -74,8 +74,6 @@ namespace ProductShop
         // Problem 08 - Export Users and Products
         public static string GetUsersWithProducts(ProductShopContext context)
         {
-            using (context)
-            {
                 var users = context
                     .Users
                     .Where(u => u.ProductsSold.Count >= 1)
@@ -96,7 +94,8 @@ namespace ProductShop
                               .ToList()
                         },
                     })
-                    .OrderByDescending(u => u.SoldProducts.Count)
+					.ToList()
+					.OrderByDescending(u => u.SoldProducts.Count)
                     .ToList();
 
                 var resultObj = new
@@ -108,26 +107,19 @@ namespace ProductShop
                 var settings = new JsonSerializerSettings()
                 {
                     NullValueHandling = NullValueHandling.Ignore,
-                    Formatting = Formatting.Indented,
-                    ContractResolver = new DefaultContractResolver()
-                    {
-                        NamingStrategy = new CamelCaseNamingStrategy()
-                    },
+                    Formatting = Formatting.Indented
                     
                 };
 
                 var json = JsonConvert.SerializeObject(resultObj, settings);
 
                 return json;
-            }
         }
 
         // Problem 07 - Export Categories by Products Count
         public static string GetCategoriesByProductsCount(ProductShopContext
             context)
         {
-            using (context)
-            {
                 var categories = context
                     .Categories
                     .ProjectTo<CategoriesByProductsCountDTO>()
@@ -137,16 +129,14 @@ namespace ProductShop
                 var json = JsonConvert.SerializeObject(categories, Formatting.Indented);
 
                 return json;
-            }
         }
 
         // Problem 06 - Export Successfully Sold Products
         public static string GetSoldProducts(ProductShopContext context)
         {
-            using (context)
-            {
                 var soldProducts = context
                     .Users
+					 .Where(u => u.ProductsSold.Any(p => p.Buyer != null))
                     .Where(p => p.ProductsSold.Count >= 1)
                     .Select(u => new SuccessfullySoldProductsDTO()
                     {
@@ -168,14 +158,11 @@ namespace ProductShop
                 var json = JsonConvert.SerializeObject(soldProducts, Formatting.Indented);
 
                 return json;
-            }
         }
 
         // Problem 05 - Export Products in Range
         public static string GetProductsInRange(ProductShopContext context)
         {
-            using (context)
-            {
                 var products = context
                     .Products
                     .Where(p => p.Price >= 500 &&
@@ -187,14 +174,11 @@ namespace ProductShop
                 var json = JsonConvert.SerializeObject(products, Formatting.Indented);
 
                 return json;
-            }
         }
 
         // Problem 05 - Import Categories and Products
         public static string ImportCategoryProducts(ProductShopContext context, string inputJson)
         {
-            using (context)
-            {
                 var categoryProducts = JsonConvert.DeserializeObject<List<CategoryProduct>>(inputJson);
 
                 context.CategoryProducts.AddRange(categoryProducts);
@@ -202,14 +186,11 @@ namespace ProductShop
                 context.SaveChanges();
 
                 return $"Successfully imported {categoryProducts.Count}";
-            }
         }
 
         // Problem 04 - Import Categories
         public static string ImportCategories(ProductShopContext context, string inputJson)
         {
-            using (context)
-            {
                 var categories = JsonConvert.DeserializeObject<List<Category>>(inputJson)
                     .Where(c => c.Name != null)
                     .ToList();
@@ -219,14 +200,11 @@ namespace ProductShop
                 context.SaveChanges();
 
                 return $"Successfully imported {categories.Count}";
-            }
         }
 
         // Problem 03 - Import Products
         public static string ImportProducts(ProductShopContext context, string inputJson)
         {
-            using (context)
-            {
                 var products = JsonConvert.DeserializeObject<List<Product>>(inputJson);
 
                 context.Products.AddRange(products);
@@ -234,14 +212,11 @@ namespace ProductShop
                 context.SaveChanges();
 
                 return $"Successfully imported {products.Count}";
-            }
         }
 
         // Problem 02 - Import Users
         public static string ImportUsers(ProductShopContext context, string inputJson)
         {
-            using (context)
-            {
                 var serializerSettings = new JsonSerializerSettings()
                 {
                     NullValueHandling = NullValueHandling.Ignore,
@@ -259,20 +234,16 @@ namespace ProductShop
                 context.SaveChanges();
 
                 return $"Successfully imported {users.Count}";
-            }
         }
 
         // Reset Database to empty!
         private static void ResetDatabase(ProductShopContext db)
         {
-            using (db)
-            {
                 db.Database.EnsureDeleted();
                 Console.WriteLine("Db was successfully deleted!");
 
                 db.Database.EnsureCreated();
                 Console.WriteLine("Db was successfully created!");
-            }
         }
 
         // Initializing the Mapper
