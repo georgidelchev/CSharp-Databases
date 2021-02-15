@@ -129,8 +129,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var categories = context
                     .Categories
                     .Select(c => new
@@ -157,7 +155,6 @@ namespace BookShop
                         sb.AppendLine($"{book.Title} " + $"({book.ReleaseDate.Value.Year})");
                     }
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -167,8 +164,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var categories = context
                     .Categories
                     .Select(c => new
@@ -186,7 +181,6 @@ namespace BookShop
                     sb.AppendLine($"{category.Name} " +
                                   $"${category.Profit:f2}");
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -196,8 +190,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var authorBooks = context
                     .Authors
                     .Select(a => new
@@ -216,7 +208,6 @@ namespace BookShop
                                   $"{author.LastName} - " +
                                   $"{author.BooksCount}");
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -224,14 +215,11 @@ namespace BookShop
         // Problem 11 - Count Books
         public static int CountBooks(BookShopContext context, int lengthCheck)
         {
-            using (context)
-            {
                 var booksCount = context
                     .Books
                     .Count(b => b.Title.Length > lengthCheck);
 
                 return booksCount;
-            }
         }
 
         // Problem 10 - Book Search by Author
@@ -239,8 +227,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .OrderBy(b => b.BookId)
@@ -259,7 +245,6 @@ namespace BookShop
                                   $"({book.AuthorFirstName} " +
                                   $"{book.AuthorLastName})");
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -269,8 +254,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .Where(b => b.Title.ToLower().Contains(input.ToLower()))
@@ -282,7 +265,6 @@ namespace BookShop
                 {
                     sb.AppendLine(book);
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -290,34 +272,20 @@ namespace BookShop
         // Problem 08 - Author Search
         public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
         {
-            var sb = new StringBuilder();
+            var authors = context
+			    .Authors
+                .Where(a => a.FirstName.EndsWith(input))
+                .Select(a => a.FirstName + " " + a.LastName)
+                .OrderBy(a => a)
+                .ToList();
 
-            using (context)
-            {
-                var authors = context
-                    .Authors
-                    .Where(a => a.FirstName.EndsWith(input))
-                    .Select(a => new
-                    {
-                        FullName = a.FirstName + " " + a.LastName
-                    })
-                    .ToList();
-
-                foreach (var author in authors)
-                {
-                    sb.AppendLine(author.FullName);
-                }
-            }
-
-            return sb.ToString().Trim();
+            return string.Join(Environment.NewLine, authors);
         }
         // Problem 07 - Released Before Date
         public static string GetBooksReleasedBefore(BookShopContext context, string date)
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var formattedDate = DateTime.ParseExact(date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
 
                 var books = context
@@ -338,7 +306,6 @@ namespace BookShop
                                   $"{book.EditionType} - " +
                                   $"${book.Price:f2}");
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -348,8 +315,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var categories = input
                     .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                     .Select(c => c.ToLower())
@@ -358,7 +323,7 @@ namespace BookShop
                 var books = context
                     .Books
                     .Where(b => b.BookCategories
-                                 .Any(bc => categories.Contains(bc.Category.Name)))
+                                 .Any(bc => categories.Contains(bc.Category.Name.ToLower())))
                     .Select(b => b.Title)
                     .OrderBy(b => b)
                     .ToList();
@@ -367,7 +332,6 @@ namespace BookShop
                 {
                     sb.AppendLine(book);
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -377,8 +341,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .Where(b => b.ReleaseDate.Value.Year != year)
@@ -390,7 +352,6 @@ namespace BookShop
                 {
                     sb.AppendLine($"{book}");
                 }
-            }
 
             return sb.ToString().Trim();
         }
@@ -400,8 +361,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .Select(b => new
@@ -418,7 +377,7 @@ namespace BookShop
                     sb.AppendLine($"{book.Title} - " +
                                   $"${book.Price:f2}");
                 }
-            }
+
 
             return sb.ToString().Trim();
         }
@@ -428,8 +387,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .Where(b => b.Copies < 5000 && b.EditionType == EditionType.Gold)
@@ -441,7 +398,7 @@ namespace BookShop
                 {
                     sb.AppendLine(book);
                 }
-            }
+
 
             return sb.ToString().Trim();
         }
@@ -452,8 +409,6 @@ namespace BookShop
         {
             var sb = new StringBuilder();
 
-            using (context)
-            {
                 var books = context
                     .Books
                     .Where(b => b.AgeRestriction == Enum.Parse<AgeRestriction>(command, true))
@@ -465,7 +420,6 @@ namespace BookShop
                 {
                     sb.AppendLine($"{book}");
                 }
-            }
 
             return sb.ToString().Trim();
         }
