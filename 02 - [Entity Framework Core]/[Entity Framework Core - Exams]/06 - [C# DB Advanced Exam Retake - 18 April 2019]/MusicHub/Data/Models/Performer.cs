@@ -22,7 +22,7 @@ namespace MusicHub.Data.Models
         [Required]
         public decimal NetWorth { get; set; }
 
-        public virtual ICollection<SongPerformer> SongPerformers { get; set; }
+        public virtual ICollection<SongPerformer> PerformerSongs { get; set; }
             = new HashSet<SongPerformer>();
     }
 }

@@ -277,7 +277,7 @@ namespace MusicHub.DataProcessor
                             break;
                         }
 
-                        performer.SongPerformers.Add(new SongPerformer()
+                        performer.PerformerSongs.Add(new SongPerformer()
                         {
                             Performer = performer,
                             Song = song
@@ -289,7 +289,7 @@ namespace MusicHub.DataProcessor
                         performersToAdd.Add(performer);
 
                         sb.AppendLine(string.Format(SuccessfullyImportedPerformer, performer.FirstName,
-                            performer.SongPerformers.Count));
+                            performer.PerformerSongs.Count));
                     }
                 }
 
