@@ -155,10 +155,6 @@ namespace MusicHub.DataProcessor
 
             var serializer = new XmlSerializer(typeof(List<ImportSongDto>), new XmlRootAttribute("Songs"));
 
-            var namespaces = new XmlSerializerNamespaces();
-
-            namespaces.Add(string.Empty, string.Empty);
-
             var reader = new StringReader(xmlString);
 
             var songsToAdd = new List<Song>();
