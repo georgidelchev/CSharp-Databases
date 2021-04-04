@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
 <Projects>
-  <Project TasksCount="10">
-    <ProjectName>Hyster-Yale</ProjectName>
-    <HasEndDate>No</HasEndDate>
-    <Tasks>
-      <Task>
-        <Name>Broadleaf</Name>
-        <Label>JavaAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Bryum</Name>
-        <Label>EntityFramework</Label>
-      </Task>
-      <Task>
-        <Name>Cornflag</Name>
-        <Label>CSharpAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Crandall</Name>
-        <Label>Priority</Label>
-      </Task>
-      <Task>
-        <Name>Debeque</Name>
-        <Label>JavaAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Guadalupe</Name>
-        <Label>JavaAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Guadeloupe</Name>
-        <Label>JavaAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Longbract Pohlia Moss</Name>
-        <Label>EntityFramework</Label>
-      </Task>
-      <Task>
-        <Name>Meyen's Sedge</Name>
-        <Label>EntityFramework</Label>
-      </Task>
-      <Task>
-        <Name>Pacific</Name>
-        <Label>Priority</Label>
-      </Task>
-    </Tasks>
-  </Project>
   <Project TasksCount="7">
     <ProjectName>Land Systemttttttttttttttttttttttttttt</ProjectName>
     <HasEndDate>No</HasEndDate>
@@ -209,20 +163,6 @@
     </Tasks>
   </Project>
   <Project TasksCount="2">
-    <ProjectName>Alamos Gold Inc.</ProjectName>
-    <HasEndDate>No</HasEndDate>
-    <Tasks>
-      <Task>
-        <Name>Bicolored Spleenwort</Name>
-        <Label>CSharpAdvanced</Label>
-      </Task>
-      <Task>
-        <Name>Comfortroot</Name>
-        <Label>Priority</Label>
-      </Task>
-    </Tasks>
-  </Project>
-  <Project TasksCount="2">
     <ProjectName>America</ProjectName>
     <HasEndDate>Yes</HasEndDate>
     <Tasks>
@@ -247,20 +187,6 @@
       <Task>
         <Name>White Jungleflame</Name>
         <Label>Hibernate</Label>
-      </Task>
-    </Tasks>
-  </Project>
-  <Project TasksCount="2">
-    <ProjectName>Key Energy Services, Inc.</ProjectName>
-    <HasEndDate>No</HasEndDate>
-    <Tasks>
-      <Task>
-        <Name>Columbian</Name>
-        <Label>Hibernate</Label>
-      </Task>
-      <Task>
-        <Name>Roundleaf Leather-root</Name>
-        <Label>Priority</Label>
       </Task>
     </Tasks>
   </Project>
@@ -323,16 +249,6 @@
       <Task>
         <Name>Cypress Panicgrass</Name>
         <Label>EntityFramework</Label>
-      </Task>
-    </Tasks>
-  </Project>
-  <Project TasksCount="1">
-    <ProjectName>China Lending Corporation</ProjectName>
-    <HasEndDate>No</HasEndDate>
-    <Tasks>
-      <Task>
-        <Name>Spreading Sandwort</Name>
-        <Label>Hibernate</Label>
       </Task>
     </Tasks>
   </Project>

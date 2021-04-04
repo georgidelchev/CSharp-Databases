@@ -1,5 +1,4 @@
 ﻿using System.Xml.Serialization;
-using TeisterMask.Data.Models.Enums;
 
 namespace TeisterMask.DataProcessor.ExportDto
 {

@@ -1,20 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
 
 namespace TeisterMask.DataProcessor.ImportDto
 {
     public class ImportEmployeeDto
     {
-        [JsonProperty("Username")]
         [Required]
         [MinLength(3)]
         [MaxLength(40)]
+        [JsonProperty("Username")]
         public string Username { get; set; }
 
-        [JsonProperty("Email")]
         [Required]
         [EmailAddress]
+        [JsonProperty("Email")]
         public string Email { get; set; }
 
         [JsonProperty("Phone")]

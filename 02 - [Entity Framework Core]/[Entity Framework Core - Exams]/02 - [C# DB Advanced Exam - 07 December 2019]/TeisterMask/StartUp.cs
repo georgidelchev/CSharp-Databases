@@ -1,8 +1,10 @@
 ﻿namespace TeisterMask
 {
     using System;
-    using System.Globalization;
     using System.IO;
+    using System.Globalization;
+
+    using AutoMapper;
     using Microsoft.EntityFrameworkCore;
 
     using Data;
@@ -13,6 +15,8 @@
         {
             var context = new TeisterMaskContext();
 
+            Mapper.Initialize(cfg => cfg.AddProfile<TeisterMaskProfile>());
+
             ResetDatabase(context, shouldDropDatabase: true);
 
             var projectDir = GetProjectDirectory();
@@ -21,10 +25,9 @@
 
             ExportEntities(context, projectDir + @"ExportResults/");
 
-            using (var transaction = context.Database.BeginTransaction())
-            {
-                transaction.Rollback();
-            }
+            using var transaction = context.Database.BeginTransaction();
+
+            transaction.Rollback();
         }
 
         private static void ImportEntities(TeisterMaskContext context, string baseDir, string exportDir)
@@ -44,14 +47,14 @@
 
         private static void ExportEntities(TeisterMaskContext context, string exportDir)
         {
-            var exportProcrastinatedProjects = DataProcessor.Serializer.ExportProjectWithTheirTasks(context);
-            Console.WriteLine(exportProcrastinatedProjects);
-            File.WriteAllText(exportDir + "Actual Result - ExportProjectWithTheirTasks.xml", exportProcrastinatedProjects);
+            var exportProjectWithTheirTasks = DataProcessor.Serializer.ExportProjectWithTheirTasks(context);
+            Console.WriteLine(exportProjectWithTheirTasks);
+            File.WriteAllText(exportDir + "Actual Result - ExportProjectWithTheirTasks.xml", exportProjectWithTheirTasks);
 
             DateTime dateTime = DateTime.ParseExact("25/01/2018", "dd/MM/yyyy", CultureInfo.InvariantCulture);
-            var exportTopMovies = DataProcessor.Serializer.ExportMostBusiestEmployees(context, dateTime);
-            Console.WriteLine(exportTopMovies);
-            File.WriteAllText(exportDir + "Actual Result - ExportMostBusiestEmployees.json", exportTopMovies);
+            var exportMostBusiestEmployees = DataProcessor.Serializer.ExportMostBusiestEmployees(context, dateTime);
+            Console.WriteLine(exportMostBusiestEmployees);
+            File.WriteAllText(exportDir + "Actual Result - ExportMostBusiestEmployees.json", exportMostBusiestEmployees);
         }
 
         private static void ResetDatabase(TeisterMaskContext context, bool shouldDropDatabase = false)

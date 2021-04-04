@@ -33,15 +33,13 @@ namespace TeisterMask.DataProcessor
 
             var reader = new StringReader(xmlString);
 
-            var projectsToAdd = new List<Project>();
-
             using (reader)
             {
                 var projectDtos = (List<ImportProjectDto>)serializer.Deserialize(reader);
 
-                foreach (var project in projectDtos)
+                foreach (var projectDto in projectDtos)
                 {
-                    if (!IsValid(project))
+                    if (!IsValid(projectDto))
                     {
                         sb.AppendLine(ErrorMessage);
 
@@ -49,24 +47,24 @@ namespace TeisterMask.DataProcessor
                     }
 
                     DateTime projectOpenDate;
+                    DateTime? projectDueDateAsNullable = null;
 
-                    var isOpenDateValid = DateTime.TryParseExact(project.OpenDate, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out projectOpenDate);
+                    var isProjectOpenDateValid = DateTime.TryParseExact(projectDto.OpenDate, "dd/MM/yyyy",
+                        CultureInfo.InvariantCulture, DateTimeStyles.None, out projectOpenDate);
 
-                    if (!isOpenDateValid)
+                    if (!isProjectOpenDateValid)
                     {
                         sb.AppendLine(ErrorMessage);
 
                         continue;
                     }
 
-                    DateTime? projectDueDate = null;
-
-                    if (!string.IsNullOrEmpty(project.DueDate))
+                    if (projectDto.DueDate != null)
                     {
-                        DateTime projectDueDateValue;
+                        DateTime projectDueDate;
 
-                        var isProjectDueDateValid = DateTime.TryParseExact(project.DueDate, "dd/MM/yyyy",
-                            CultureInfo.InvariantCulture, DateTimeStyles.None, out projectDueDateValue);
+                        var isProjectDueDateValid = DateTime.TryParseExact(projectDto.DueDate, "dd/MM/yyyy",
+                            CultureInfo.InvariantCulture, DateTimeStyles.None, out projectDueDate);
 
                         if (!isProjectDueDateValid)
                         {
@@ -75,19 +73,19 @@ namespace TeisterMask.DataProcessor
                             continue;
                         }
 
-                        projectDueDate = projectDueDateValue;
+                        projectDueDateAsNullable = projectDueDate;
                     }
 
-                    var projectToAdd = new Project()
+                    var project = new Project()
                     {
-                        Name = project.Name,
+                        DueDate = projectDueDateAsNullable,
                         OpenDate = projectOpenDate,
-                        DueDate = projectDueDate
+                        Name = projectDto.Name
                     };
 
-                    foreach (var task in project.Tasks)
+                    foreach (var taskDto in projectDto.Tasks)
                     {
-                        if (!IsValid(task))
+                        if (!IsValid(taskDto))
                         {
                             sb.AppendLine(ErrorMessage);
 
@@ -96,8 +94,8 @@ namespace TeisterMask.DataProcessor
 
                         DateTime taskOpenDate;
 
-                        bool isTaskOpenDateValid = DateTime.TryParseExact(task.OpenDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
-                            DateTimeStyles.None, out taskOpenDate);
+                        var isTaskOpenDateValid = DateTime.TryParseExact(taskDto.OpenDate, "dd/MM/yyyy",
+                            CultureInfo.InvariantCulture, DateTimeStyles.None, out taskOpenDate);
 
                         if (!isTaskOpenDateValid)
                         {
@@ -106,7 +104,7 @@ namespace TeisterMask.DataProcessor
                             continue;
                         }
 
-                        if (taskOpenDate < projectToAdd.OpenDate)
+                        if (taskOpenDate < projectOpenDate)
                         {
                             sb.AppendLine(ErrorMessage);
 
@@ -115,7 +113,7 @@ namespace TeisterMask.DataProcessor
 
                         DateTime taskDueDate;
 
-                        var isTaskDueDateValid = DateTime.TryParseExact(task.DueDate, "dd/MM/yyyy",
+                        var isTaskDueDateValid = DateTime.TryParseExact(taskDto.DueDate, "dd/MM/yyyy",
                             CultureInfo.InvariantCulture, DateTimeStyles.None, out taskDueDate);
 
                         if (!isTaskDueDateValid)
@@ -125,9 +123,9 @@ namespace TeisterMask.DataProcessor
                             continue;
                         }
 
-                        if (projectDueDate.HasValue)
+                        if (projectDueDateAsNullable.HasValue)
                         {
-                            if (taskDueDate > projectToAdd.DueDate)
+                            if (taskDueDate > projectDueDateAsNullable)
                             {
                                 sb.AppendLine(ErrorMessage);
 
@@ -135,29 +133,27 @@ namespace TeisterMask.DataProcessor
                             }
                         }
 
-                        var taskToAdd = new Task()
+                        var task = new Task()
                         {
-                            Name = task.Name,
-                            OpenDate = taskOpenDate,
                             DueDate = taskDueDate,
-                            ExecutionType = (ExecutionType)task.ExecutionType,
-                            LabelType = (LabelType)task.LabelType
+                            Name = taskDto.Name,
+                            OpenDate = taskOpenDate,
+                            LabelType = (LabelType)taskDto.LabelType,
+                            ExecutionType = (ExecutionType)taskDto.ExecutionType
                         };
 
-                        projectToAdd.Tasks.Add(taskToAdd);
+                        project.Tasks.Add(task);
                     }
 
-                    projectsToAdd.Add(projectToAdd);
+                    context.Projects.Add(project);
 
-                    sb.AppendLine(string.Format(SuccessfullyImportedProject, projectToAdd.Name, projectToAdd.Tasks.Count));
+                    context.SaveChanges();
+
+                    sb.AppendLine(string.Format(SuccessfullyImportedProject, project.Name, project.Tasks.Count));
                 }
-
-                context.Projects.AddRange(projectsToAdd);
-
-                context.SaveChanges();
-
-                return sb.ToString().Trim();
             }
+
+            return sb.ToString().Trim();
         }
 
         public static string ImportEmployees(TeisterMaskContext context, string jsonString)
@@ -165,8 +161,6 @@ namespace TeisterMask.DataProcessor
             var sb = new StringBuilder();
 
             var employeeDtos = JsonConvert.DeserializeObject<List<ImportEmployeeDto>>(jsonString);
-
-            var employeesToAdd = new List<Employee>();
 
             foreach (var employee in employeeDtos)
             {
@@ -180,6 +174,8 @@ namespace TeisterMask.DataProcessor
                 if (employee.Username.Any(ch => !char.IsLetterOrDigit(ch)))
                 {
                     sb.AppendLine(ErrorMessage);
+
+                    continue;
                 }
 
                 var employeeToAdd = new Employee()
@@ -191,33 +187,32 @@ namespace TeisterMask.DataProcessor
 
                 foreach (var taskId in employee.Tasks.Distinct())
                 {
-                    if (context.Tasks.All(t => t.Id != taskId))
+                    var task = context.Tasks
+                        .FirstOrDefault(t => t.Id == taskId);
+
+                    if (task == null)
                     {
                         sb.AppendLine(ErrorMessage);
 
                         continue;
                     }
 
-                    var taskToAdd = context.Tasks.FirstOrDefault(t => t.Id == taskId);
-
                     var employeeTask = new EmployeeTask()
                     {
                         Employee = employeeToAdd,
-                        Task = taskToAdd
+                        Task = task
                     };
 
                     employeeToAdd.EmployeesTasks.Add(employeeTask);
                 }
 
-                employeesToAdd.Add(employeeToAdd);
+                context.Employees.Add(employeeToAdd);
+
+                context.SaveChanges();
 
                 sb.AppendLine(string.Format(SuccessfullyImportedEmployee, employeeToAdd.Username,
                     employeeToAdd.EmployeesTasks.Count));
             }
-
-            context.Employees.AddRange(employeesToAdd);
-
-            context.SaveChanges();
 
             return sb.ToString().Trim();
         }
@@ -225,6 +220,7 @@ namespace TeisterMask.DataProcessor
         private static bool IsValid(object dto)
         {
             var validationContext = new ValidationContext(dto);
+
             var validationResult = new List<ValidationResult>();
 
             return Validator.TryValidateObject(dto, validationContext, validationResult, true);

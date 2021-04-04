@@ -22,6 +22,7 @@ namespace TeisterMask.DataProcessor
 
             var projects = context
                 .Projects
+                .ToList()
                 .Where(p => p.Tasks.Count >= 1)
                 .Select(p => new ExportProjectDto()
                 {
@@ -33,9 +34,11 @@ namespace TeisterMask.DataProcessor
                         Name = t.Name,
                         Label = t.LabelType.ToString()
                     })
+                        .ToList()
                         .OrderBy(t => t.Name)
                         .ToList()
                 })
+                .ToList()
                 .OrderByDescending(t => t.TasksCount)
                 .ThenBy(t => t.ProjectName)
                 .ToList();
@@ -60,11 +63,13 @@ namespace TeisterMask.DataProcessor
         {
             var employees = context
                 .Employees
+                .ToList()
                 .Where(e => e.EmployeesTasks.Any(et => et.Task.OpenDate >= date))
                 .Select(e => new
                 {
                     Username = e.Username,
                     Tasks = e.EmployeesTasks
+                        .ToList()
                         .Where(et => et.Task.OpenDate >= date)
                         .OrderByDescending(t => t.Task.DueDate)
                         .ThenBy(t => t.Task.Name)
@@ -73,11 +78,12 @@ namespace TeisterMask.DataProcessor
                             TaskName = et.Task.Name,
                             OpenDate = et.Task.OpenDate.ToString("d", CultureInfo.InvariantCulture),
                             DueDate = et.Task.DueDate.ToString("d", CultureInfo.InvariantCulture),
-                            LabelType = (int)et.Task.LabelType,
-                            ExecutionType = (int)et.Task.ExecutionType
+                            LabelType = et.Task.LabelType.ToString(),
+                            ExecutionType = et.Task.ExecutionType.ToString()
                         })
                         .ToList()
                 })
+                .ToList()
                 .OrderByDescending(e => e.Tasks.Count)
                 .ThenBy(e => e.Username)
                 .Take(10)

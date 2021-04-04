@@ -15,10 +15,10 @@ namespace TeisterMask.Data.Models
 
         [Required]
         public DateTime OpenDate { get; set; }
-
+        
         public DateTime? DueDate { get; set; }
 
-        public ICollection<Task> Tasks { get; set; }
+        public virtual ICollection<Task> Tasks { get; set; }
             = new HashSet<Task>();
     }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using TeisterMask.Data.Models.Enums;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TeisterMask.Data.Models
 {
@@ -28,7 +27,6 @@ namespace TeisterMask.Data.Models
         public LabelType LabelType { get; set; }
 
         [Required]
-        [ForeignKey(nameof(Project))]
         public int ProjectId { get; set; }
 
         public Project Project { get; set; }
