@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Shells>
+  <Shell>
+    <ShellWeight>50</ShellWeight>
+    <Caliber>155 mm (6.1 in)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>100</ShellWeight>
+    <Caliber>103 mm (8 in)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>146</ShellWeight>
+    <Caliber>203 mm (8 in)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>0</ShellWeight>
+    <Caliber>280 mm</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>300</ShellWeight>
+    <Caliber>280 mm (11 in)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>460</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>1500</ShellWeight>
+    <Caliber>460 mm (18 in)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>53</ShellWeight>
+    <Caliber>155mm</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>91</ShellWeight>
+    <Caliber>203 MM HOW HE M 106 (8)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>43.2</ShellWeight>
+    <Caliber>155 MM HOW HE M107</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>33.4</ShellWeight>
+    <Caliber>130 MM HE</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>27</ShellWeight>
+    <Caliber>122MM HOW HE</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>19.07</ShellWeight>
+    <Caliber>105MM HOW</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>1253</ShellWeight>
+    <Caliber>QF 25 PDR MK 2-1</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>20000</ShellWeight>
+    <Caliber>1253 gm</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>28.5</ShellWeight>
+    <Caliber>122 MM HOW HE-D30</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>5.5</ShellWeight>
+    <Caliber>105 XM915</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>21.8</ShellWeight>
+    <Caliber>155 75-lb</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>18.4</ShellWeight>
+    <Caliber>155 M483A1</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>255</ShellWeight>
+    <Caliber>20 mm x 102 TP</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>254</ShellWeight>
+    <Caliber>20 mm x 102 TP-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>0</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>258</ShellWeight>
+    <Caliber>20 x 102 mm HEI</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>436</ShellWeight>
+    <Caliber>25 mm TPDS-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>25</ShellWeight>
+    <Caliber>436 g.25 mm TPDS-T25 mm TPDS-T25 mm TPDS-T25 mm TPDS-T25 mm TPDS-T25 mm TPDS-T25 mm TPDS-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>440</ShellWeight>
+    <Caliber>25 mm FAPDS-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>440</ShellWeight>
+    <Caliber>25 mm APFSDS-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>835</ShellWeight>
+    <Caliber>30 x 173mm TP-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>890</ShellWeight>
+    <Caliber>30 x 180mm HEI-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>157</ShellWeight>
+    <Caliber>35 mm TP-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>1672</ShellWeight>
+    <Caliber>40 mm HEI</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>124</ShellWeight>
+    <Caliber>155 mm HE ERFB RA-BB</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>85</ShellWeight>
+    <Caliber>M777 155mm</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>56</ShellWeight>
+    <Caliber>155mm BONUS MKI</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>58</ShellWeight>
+    <Caliber>155-105mm SPACIDO</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>51</ShellWeight>
+    <Caliber>155mm LU 21</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>60</ShellWeight>
+    <Caliber>155mm LU 214 SMK-WP</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>61</ShellWeight>
+    <Caliber>155mm LU 215 ILLUM</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>62</ShellWeight>
+    <Caliber>155mm LU 216 ILLUM IR</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>55</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>63</ShellWeight>
+    <Caliber>155mm LU 107</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>64</ShellWeight>
+    <Caliber>155mm LU 110 SMK-WP</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>65</ShellWeight>
+    <Caliber>155mm HE L15A1</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>66</ShellWeight>
+    <Caliber>155mm HE M107</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>67</ShellWeight>
+    <Caliber>55mm MODULAR CHARGE SYSTEM</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>68</ShellWeight>
+    <Caliber>155mm IPC35</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>69</ShellWeight>
+    <Caliber>155mm IPC36</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>69</ShellWeight>
+    <Caliber>155</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>10500</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>70</ShellWeight>
+    <Caliber>105mm HE BB ER G3</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>71</ShellWeight>
+    <Caliber>105mm L14 HE M1</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>75</ShellWeight>
+    <Caliber>105mm SMK BB ER G3</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>79</ShellWeight>
+    <Caliber>105mm SMK HB ER G3</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>80</ShellWeight>
+    <Caliber>PDM 728 IM</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>84</ShellWeight>
+    <Caliber>FB375</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>8400</ShellWeight>
+    <Caliber>120mm MORTAR HE</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>88</ShellWeight>
+    <Caliber>120mm MORTAR HE</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>150</ShellWeight>
+    <Caliber></Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>90</ShellWeight>
+    <Caliber>120mm MORTAR HE-IM</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>96</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>96</ShellWeight>
+    <Caliber>120mm MORTAR HE PRAC</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>91</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>91</ShellWeight>
+    <Caliber>120mm MORTAR SMK(WP)</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>99</ShellWeight>
+    <Caliber>120mm MORTAR IL</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>0</ShellWeight>
+    <Caliber>105mm L51 HEAT</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>93</ShellWeight>
+    <Caliber>105mm L51 HEAT</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>20</ShellWeight>
+    <Caliber>105mm L51 TP</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>30</ShellWeight>
+    <Caliber>105mm HE F3B</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>40</ShellWeight>
+    <Caliber>105mm HEAT-TP F3A</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>45</ShellWeight>
+    <Caliber/>
+  </Shell>
+  <Shell>
+    <ShellWeight>45</ShellWeight>
+    <Caliber>TD 20-90</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>35</ShellWeight>
+    <Caliber>90mm MK3 HE-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>38</ShellWeight>
+    <Caliber>90mm MK3 SMK(WP)-T</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>55</ShellWeight>
+    <Caliber>520mm AK3 BSW</Caliber>
+  </Shell>
+  <Shell>
+    <ShellWeight>1</ShellWeight>
+    <Caliber>38</Caliber>
+  </Shell>
+</Shells>

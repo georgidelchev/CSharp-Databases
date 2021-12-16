@@ -1,0 +1,2682 @@
+[
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 531616,
+    "BarrelLength": 6.86,
+    "NumberBuild": 287,
+    "Range": 120000,
+    "GunType": "Howitzer",
+    "ShellId": 41,
+    "Countries": [
+      { "Id": 86 },
+      { "Id": 57 },
+      { "Id": 64 },
+      { "Id": 74 },
+      { "Id": 58 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 801684,
+    "BarrelLength": 31.18,
+    "NumberBuild": 620,
+    "Range": 19118,
+    "GunType": "AntiTankGun",
+    "ShellId": 38,
+    "Countries": [
+      { "Id": 47 },
+      { "Id": 3 },
+      { "Id": 85 },
+      { "Id": 35 },
+      { "Id": 49 },
+      { "Id": 53 },
+      { "Id": 30 },
+      { "Id": 39 },
+      { "Id": 62 },
+      { "Id": 6 },
+      { "Id": 76 },
+      { "Id": 78 },
+      { "Id": 43 },
+      { "Id": 72 },
+      { "Id": 23 },
+      { "Id": 9 },
+      { "Id": 1 },
+      { "Id": 21 },
+      { "Id": 8 },
+      { "Id": 67 },
+      { "Id": 2 },
+      { "Id": 33 },
+      { "Id": 28 },
+      { "Id": 17 },
+      { "Id": 54 },
+      { "Id": 4 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 80,
+    "BarrelLength": 25.08,
+    "NumberBuild": 68,
+    "Range": 80313,
+    "GunType": "AntiTankGun",
+    "ShellId": 33,
+    "Countries": [
+      { "Id": 12 },
+      { "Id": 52 }
+
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 966617,
+    "BarrelLength": 0,
+    "NumberBuild": 2109,
+    "Range": 54422,
+    "GunType": "AntiTankGun",
+    "ShellId": 14,
+    "Countries": [
+      { "Id": 47 },
+      { "Id": 66 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 178458,
+    "BarrelLength": 19.68,
+    "NumberBuild": 938,
+    "Range": 86834,
+    "GunType": "AntiTankGun",
+    "ShellId": 48,
+    "Countries": [
+      { "Id": 66 },
+      { "Id": 2 },
+      { "Id": 61 },
+      { "Id": 7 },
+      { "Id": 45 },
+      { "Id": 87 },
+      { "Id": 76 },
+      { "Id": 50 },
+      { "Id": 57 },
+      { "Id": 9 },
+      { "Id": 39 },
+      { "Id": 69 },
+      { "Id": 74 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 506304,
+    "BarrelLength": 5.81,
+    "NumberBuild": 4557,
+    "Range": 29594,
+    "GunType": "AntiTankGun",
+    "ShellId": 60,
+    "Countries": [
+      { "Id": 75 },
+      { "Id": 49 },
+      { "Id": 73 },
+      { "Id": 36 },
+      { "Id": 56 },
+      { "Id": 39 },
+      { "Id": 27 },
+      { "Id": 28 },
+      { "Id": 9 },
+      { "Id": 15 },
+      { "Id": 77 },
+      { "Id": 76 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 265892,
+    "BarrelLength": 28.99,
+    "NumberBuild": 1834,
+    "Range": 64669,
+    "GunType": "AntiTankGun",
+    "ShellId": 19,
+    "Countries": [
+      { "Id": 63 },
+      { "Id": 29 },
+      { "Id": 20 },
+      { "Id": 31 },
+      { "Id": 17 },
+      { "Id": 69 },
+      { "Id": 21 },
+      { "Id": 44 },
+      { "Id": 49 },
+      { "Id": 64 },
+      { "Id": 82 },
+      { "Id": 1 },
+      { "Id": 36 },
+      { "Id": 68 },
+      { "Id": 54 },
+      { "Id": 57 },
+      { "Id": 11 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 531616,
+    "BarrelLength": 6.86,
+    "NumberBuild": null,
+    "Range": 120000,
+    "GunType": "Howitzer",
+    "ShellId": 41,
+    "Countries": [
+
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 661497,
+    "BarrelLength": 36.22,
+    "NumberBuild": 3658,
+    "Range": 63578,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 20 },
+      { "Id": 52 },
+      { "Id": 42 },
+      { "Id": 54 },
+      { "Id": 43 },
+      { "Id": 65 },
+      { "Id": 80 },
+      { "Id": 56 },
+      { "Id": 4 },
+      { "Id": 3 },
+      { "Id": 14 },
+      { "Id": 81 }
+    ]
+  },
+  {
+    "ManufacturerId": 3,
+    "GunWeight": 531367,
+    "BarrelLength": 22.41,
+    "NumberBuild": 2806,
+    "Range": 51876,
+    "GunType": "AntiTankGun",
+    "ShellId": 37,
+    "Countries": [
+      { "Id": 7 },
+      { "Id": 26 },
+      { "Id": 61 },
+      { "Id": 50 },
+      { "Id": 42 },
+      { "Id": 76 },
+      { "Id": 67 },
+      { "Id": 8 },
+      { "Id": 31 },
+      { "Id": 4 },
+      { "Id": 53 },
+      { "Id": 46 },
+      { "Id": 73 },
+      { "Id": 48 },
+      { "Id": 34 },
+      { "Id": 84 },
+      { "Id": 66 }
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 1263981,
+    "BarrelLength": 5.65,
+    "NumberBuild": 250,
+    "Range": 64889,
+    "GunType": "AntiTankGun",
+    "ShellId": 2,
+    "Countries": [
+      { "Id": 3 },
+      { "Id": 10 },
+      { "Id": 44 },
+      { "Id": 50 },
+      { "Id": 33 },
+      { "Id": 48 },
+      { "Id": 6 },
+      { "Id": 2 },
+      { "Id": 54 },
+      { "Id": 59 },
+      { "Id": 87 },
+      { "Id": 81 },
+      { "Id": 26 },
+      { "Id": 9 },
+      { "Id": 65 },
+      { "Id": 40 },
+      { "Id": 68 },
+      { "Id": 39 },
+      { "Id": 77 },
+      { "Id": 88 },
+      { "Id": 71 },
+      { "Id": 18 },
+      { "Id": 45 },
+      { "Id": 1 },
+      { "Id": 21 },
+      { "Id": 19 }
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 747531,
+    "BarrelLength": 31.33,
+    "NumberBuild": 1195,
+    "Range": 31773,
+    "GunType": "AntiTankGun",
+    "ShellId": 56,
+    "Countries": [
+      { "Id": 68 },
+      { "Id": 22 },
+      { "Id": 24 },
+      { "Id": 45 },
+      { "Id": 27 },
+      { "Id": 20 },
+      { "Id": 44 },
+      { "Id": 43 },
+      { "Id": 38 },
+      { "Id": 28 },
+      { "Id": 12 },
+      { "Id": 23 },
+      { "Id": 80 },
+      { "Id": 6 },
+      { "Id": 35 },
+      { "Id": 2 },
+      { "Id": 88 },
+      { "Id": 52 },
+      { "Id": 5 },
+      { "Id": 55 },
+      { "Id": 30 },
+      { "Id": 10 },
+      { "Id": 37 },
+      { "Id": 61 },
+      { "Id": 78 },
+      { "Id": 63 },
+      { "Id": 56 },
+      { "Id": 60 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 953756,
+    "BarrelLength": 23.64,
+    "NumberBuild": 3029,
+    "Range": 86863,
+    "GunType": "AntiTankGun",
+    "ShellId": 55,
+    "Countries": [
+      { "Id": 5 },
+      { "Id": 13 },
+      { "Id": 76 },
+      { "Id": 31 },
+      { "Id": 24 },
+      { "Id": 30 },
+      { "Id": 27 },
+      { "Id": 72 },
+      { "Id": 85 },
+      { "Id": 9 },
+      { "Id": 21 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 187500,
+    "BarrelLength": 22.9,
+    "NumberBuild": 1745,
+    "Range": 28842,
+    "GunType": "AntiTankGun",
+    "ShellId": 8,
+    "Countries": [
+      { "Id": 63 },
+      { "Id": 20 },
+      { "Id": 4 },
+      { "Id": 1 },
+      { "Id": 39 },
+      { "Id": 14 },
+      { "Id": 35 },
+      { "Id": 8 },
+      { "Id": 75 },
+      { "Id": 18 },
+      { "Id": 21 },
+      { "Id": 42 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 1148585,
+    "BarrelLength": 31.44,
+    "NumberBuild": 4081,
+    "Range": 31952,
+    "GunType": "AntiTankGun",
+    "ShellId": 40,
+    "Countries": [
+      { "Id": 44 },
+      { "Id": 39 },
+      { "Id": 37 },
+      { "Id": 29 },
+      { "Id": 55 },
+      { "Id": 41 },
+      { "Id": 22 },
+      { "Id": 56 },
+      { "Id": 52 },
+      { "Id": 13 },
+      { "Id": 23 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 401569,
+    "BarrelLength": 28.66,
+    "NumberBuild": 2993,
+    "Range": 19030,
+    "GunType": "AntiTankGun",
+    "ShellId": 48,
+    "Countries": [
+      { "Id": 30 },
+      { "Id": 6 },
+      { "Id": 22 },
+      { "Id": 51 },
+      { "Id": 13 },
+      { "Id": 14 },
+      { "Id": 44 },
+      { "Id": 9 },
+      { "Id": 57 },
+      { "Id": 29 },
+      { "Id": 85 },
+      { "Id": 42 },
+      { "Id": 48 }
+    ]
+  },
+  {
+    "ManufacturerId": 17,
+    "GunWeight": 1750000,
+    "BarrelLength": 29.92,
+    "NumberBuild": 1846,
+    "Range": 98446,
+    "GunType": "AntiTankGun",
+    "ShellId": 24,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 35 },
+      { "Id": 39 },
+      { "Id": 57 },
+      { "Id": 54 },
+      { "Id": 74 },
+      { "Id": 28 },
+      { "Id": 76 },
+      { "Id": 13 },
+      { "Id": 14 },
+      { "Id": 11 },
+      { "Id": 52 },
+      { "Id": 9 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 1244859,
+    "BarrelLength": 29.1,
+    "NumberBuild": 4065,
+    "Range": 98959,
+    "GunType": "MountainGun",
+    "ShellId": 42,
+    "Countries": [
+      { "Id": 86 },
+      { "Id": 26 },
+      { "Id": 3 },
+      { "Id": 64 },
+      { "Id": 71 },
+      { "Id": 24 },
+      { "Id": 4 },
+      { "Id": 8 },
+      { "Id": 67 },
+      { "Id": 7 },
+      { "Id": 49 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 850582,
+    "BarrelLength": 25.01,
+    "NumberBuild": 1951,
+    "Range": 63468,
+    "GunType": "MountainGun",
+    "ShellId": 18,
+    "Countries": [
+      { "Id": 75 },
+      { "Id": 28 },
+      { "Id": 54 },
+      { "Id": 6 },
+      { "Id": 68 },
+      { "Id": 65 },
+      { "Id": 71 },
+      { "Id": 79 },
+      { "Id": 81 },
+      { "Id": 48 },
+      { "Id": 64 },
+      { "Id": 22 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 1231865,
+    "BarrelLength": 14.24,
+    "NumberBuild": 4451,
+    "Range": 76849,
+    "GunType": "MountainGun",
+    "ShellId": 52,
+    "Countries": [
+      { "Id": 17 },
+      { "Id": 30 },
+      { "Id": 6 },
+      { "Id": 56 },
+      { "Id": 74 },
+      { "Id": 83 },
+      { "Id": 45 },
+      { "Id": 24 },
+      { "Id": 87 },
+      { "Id": 28 },
+      { "Id": 3 },
+      { "Id": 22 },
+      { "Id": 52 },
+      { "Id": 42 },
+      { "Id": 68 },
+      { "Id": 21 },
+      { "Id": 84 },
+      { "Id": 2 },
+      { "Id": 63 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 99,
+    "BarrelLength": 24.71,
+    "NumberBuild": 2965,
+    "Range": 10197,
+    "GunType": "MountainGun",
+    "ShellId": 34,
+    "Countries": [
+      { "Id": 76 },
+      { "Id": 3 },
+      { "Id": 7 },
+      { "Id": 81 },
+      { "Id": 40 },
+      { "Id": 86 },
+      { "Id": 4 },
+      { "Id": 8 },
+      { "Id": 85 },
+      { "Id": 55 },
+      { "Id": 73 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 1180282,
+    "BarrelLength": 34.59,
+    "NumberBuild": 2270,
+    "Range": 61368,
+    "GunType": "MountainGun",
+    "ShellId": 59,
+    "Countries": [
+      { "Id": 15 },
+      { "Id": 23 },
+      { "Id": 70 },
+      { "Id": 53 },
+      { "Id": 63 },
+      { "Id": 56 },
+      { "Id": 88 },
+      { "Id": 57 },
+      { "Id": 22 },
+      { "Id": 27 },
+      { "Id": 72 }
+    ]
+  },
+  {
+    "ManufacturerId": 3,
+    "GunWeight": 984486,
+    "BarrelLength": 18.9,
+    "NumberBuild": 1416,
+    "Range": 6407,
+    "GunType": "MountainGun",
+    "ShellId": 34,
+    "Countries": [
+      { "Id": 5 },
+      { "Id": 57 },
+      { "Id": 9 },
+      { "Id": 8 },
+      { "Id": 7 },
+      { "Id": 79 },
+      { "Id": 6 },
+      { "Id": 15 },
+      { "Id": 17 },
+      { "Id": 49 },
+      { "Id": 27 },
+      { "Id": 10 },
+      { "Id": 58 },
+      { "Id": 74 },
+      { "Id": 88 },
+      { "Id": 68 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 1550000,
+    "BarrelLength": 14.83,
+    "NumberBuild": 2538,
+    "Range": 34287,
+    "GunType": "MountainGun",
+    "ShellId": 16,
+    "Countries": [
+      { "Id": 4 },
+      { "Id": 45 },
+      { "Id": 52 },
+      { "Id": 50 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 904981,
+    "BarrelLength": 21.81,
+    "NumberBuild": 4823,
+    "Range": 75296,
+    "GunType": "MountainGun",
+    "ShellId": 8,
+    "Countries": [
+      { "Id": 72 },
+      { "Id": 11 },
+      { "Id": 54 },
+      { "Id": 13 },
+      { "Id": 88 },
+      { "Id": 25 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 571699,
+    "BarrelLength": 26.03,
+    "NumberBuild": 3148,
+    "Range": 86877,
+    "GunType": "MountainGun",
+    "ShellId": 35,
+    "Countries": [
+      { "Id": 84 },
+      { "Id": 26 },
+      { "Id": 65 },
+      { "Id": 35 },
+      { "Id": 64 },
+      { "Id": 87 },
+      { "Id": 19 },
+      { "Id": 66 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 854931,
+    "BarrelLength": 1.57,
+    "NumberBuild": 1125,
+    "Range": 47230,
+    "GunType": "MountainGun",
+    "ShellId": 52,
+    "Countries": [
+      { "Id": 37 },
+      { "Id": 23 },
+      { "Id": 56 },
+      { "Id": 41 }
+    ]
+  },
+  {
+    "ManufacturerId": 13,
+    "GunWeight": 1172976,
+    "BarrelLength": 8.78,
+    "NumberBuild": 2437,
+    "Range": 10804,
+    "GunType": "MountainGun",
+    "ShellId": 47,
+    "Countries": [
+      { "Id": 77 },
+      { "Id": 41 },
+      { "Id": 68 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 1199508,
+    "BarrelLength": 10.55,
+    "NumberBuild": 3354,
+    "Range": 5239,
+    "GunType": "MountainGun",
+    "ShellId": 7,
+    "Countries": [
+      { "Id": 77 },
+      { "Id": 41 },
+      { "Id": 68 },
+      { "Id": 80 },
+      { "Id": 64 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 566992,
+    "BarrelLength": 30.43,
+    "NumberBuild": 2395,
+    "Range": 25712,
+    "GunType": "MountainGun",
+    "ShellId": 33,
+    "Countries": [
+      { "Id": 76 },
+      { "Id": 83 },
+      { "Id": 67 },
+      { "Id": 9 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 151760,
+    "BarrelLength": 22.69,
+    "NumberBuild": 4040,
+    "Range": 93431,
+    "GunType": "MountainGun",
+    "ShellId": 44,
+    "Countries": [
+      { "Id": 1 },
+      { "Id": 44 },
+      { "Id": 86 },
+      { "Id": 5 },
+      { "Id": 35 },
+      { "Id": 51 },
+      { "Id": 84 },
+      { "Id": 69 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 178650,
+    "BarrelLength": 8.36,
+    "NumberBuild": 3753,
+    "Range": 59898,
+    "GunType": "MountainGun",
+    "ShellId": 23,
+    "Countries": [
+      { "Id": 43 },
+      { "Id": 70 },
+      { "Id": 44 },
+      { "Id": 65 },
+      { "Id": 47 },
+      { "Id": 54 },
+      { "Id": 88 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 445857,
+    "BarrelLength": 17.18,
+    "NumberBuild": 2733,
+    "Range": 51263,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 17 },
+      { "Id": 62 },
+      { "Id": 47 },
+      { "Id": 42 },
+      { "Id": 50 },
+      { "Id": 7 },
+      { "Id": 41 },
+      { "Id": 4 },
+      { "Id": 35 },
+      { "Id": 58 },
+      { "Id": 64 },
+      { "Id": 86 }
+    ]
+  },
+  {
+    "ManufacturerId": 17,
+    "GunWeight": 137985,
+    "BarrelLength": 25.34,
+    "NumberBuild": 3510,
+    "Range": 16813,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 36 },
+      { "Id": 24 },
+      { "Id": 77 },
+      { "Id": 66 },
+      { "Id": 15 },
+      { "Id": 50 }
+    ]
+  },
+  {
+    "ManufacturerId": 17,
+    "GunWeight": 125418,
+    "BarrelLength": 45.32,
+    "NumberBuild": 1117,
+    "Range": 19983,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 84 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 253208,
+    "BarrelLength": 29.9,
+    "NumberBuild": 1821,
+    "Range": 83528,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 84 },
+      { "Id": 9 },
+      { "Id": 49 },
+      { "Id": 69 },
+      { "Id": 63 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 893297,
+    "BarrelLength": 26.17,
+    "NumberBuild": 1953,
+    "Range": 60002,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 41 },
+      { "Id": 56 },
+      { "Id": 25 },
+      { "Id": 4 },
+      { "Id": 1 },
+      { "Id": 58 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 615800,
+    "BarrelLength": 32.13,
+    "NumberBuild": 2224,
+    "Range": 64741,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 78 },
+      { "Id": 57 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 61580,
+    "BarrelLength": 32.13,
+    "NumberBuild": 224,
+    "Range": 6741,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 78 },
+      { "Id": 57 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 61800,
+    "BarrelLength": 32.13,
+    "NumberBuild": 24,
+    "Range": 6471,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 78 },
+      { "Id": 57 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 65800,
+    "BarrelLength": 32.13,
+    "NumberBuild": 224,
+    "Range": 4741,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 78 },
+      { "Id": 57 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 61580,
+    "BarrelLength": 32.13,
+    "NumberBuild": 222,
+    "Range": 6441,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 78 },
+      { "Id": 57 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 497845,
+    "BarrelLength": 4.19,
+    "NumberBuild": 1332,
+    "Range": 52454,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 72 },
+      { "Id": 83 },
+      { "Id": 34 },
+      { "Id": 77 },
+      { "Id": 22 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 1274626,
+    "BarrelLength": 7.1,
+    "NumberBuild": 3892,
+    "Range": 48,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 2 },
+      { "Id": 24 },
+      { "Id": 29 },
+      { "Id": 49 },
+      { "Id": 85 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 99238,
+    "BarrelLength": 12.71,
+    "NumberBuild": 946,
+    "Range": 71139,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 51 },
+      { "Id": 45 },
+      { "Id": 15 },
+      { "Id": 88 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 1006476,
+    "BarrelLength": 10.21,
+    "NumberBuild": 2392,
+    "Range": 3564,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 75 },
+      { "Id": 35 },
+      { "Id": 2 },
+      { "Id": 33 }
+    ]
+  },
+  {
+    "ManufacturerId": 13,
+    "GunWeight": 1128413,
+    "BarrelLength": 6.68,
+    "NumberBuild": 4546,
+    "Range": 76981,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 37 },
+      { "Id": 83 },
+      { "Id": 27 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 423195,
+    "BarrelLength": 21.59,
+    "NumberBuild": 3779,
+    "Range": 84300,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 73 },
+      { "Id": 81 },
+      { "Id": 58 },
+      { "Id": 47 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 747132,
+    "BarrelLength": 33.69,
+    "NumberBuild": 1296,
+    "Range": 39011,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 38 },
+      { "Id": 29 },
+      { "Id": 74 },
+      { "Id": 60 },
+      { "Id": 79 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 366428,
+    "BarrelLength": 16.86,
+    "NumberBuild": 920,
+    "Range": 689,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 49 },
+      { "Id": 16 },
+      { "Id": 17 },
+      { "Id": 5 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 871854,
+    "BarrelLength": 26.23,
+    "NumberBuild": 1130,
+    "Range": 3749,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 1 },
+      { "Id": 25 },
+      { "Id": 9 },
+      { "Id": 44 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 1133227,
+    "BarrelLength": 17.74,
+    "NumberBuild": 48,
+    "Range": 1477,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 9 },
+      { "Id": 25 },
+      { "Id": 19 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 585885,
+    "BarrelLength": 18.77,
+    "NumberBuild": 1604,
+    "Range": 33594,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 44 },
+      { "Id": 20 },
+      { "Id": 80 },
+      { "Id": 9 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 530804,
+    "BarrelLength": 30.64,
+    "NumberBuild": 1087,
+    "Range": 56606,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 32 },
+      { "Id": 2 },
+      { "Id": 28 },
+      { "Id": 50 },
+      { "Id": 78 },
+      { "Id": 19 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 948898,
+    "BarrelLength": 6.72,
+    "NumberBuild": 1619,
+    "Range": 35591,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 54,
+    "Countries": [
+      { "Id": 57 },
+      { "Id": 62 },
+      { "Id": 21 },
+      { "Id": 64 },
+      { "Id": 40 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 250138,
+    "BarrelLength": 6.55,
+    "NumberBuild": 4054,
+    "Range": 98276,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 3,
+    "Countries": [
+      { "Id": 75 },
+      { "Id": 82 },
+      { "Id": 48 },
+      { "Id": 6 },
+      { "Id": 50 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 1112017,
+    "BarrelLength": 17.89,
+    "NumberBuild": 655,
+    "Range": 95131,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 13,
+    "Countries": [
+
+      { "Id": 77 },
+      { "Id": 44 },
+      { "Id": 3 },
+      { "Id": 17 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 360639,
+    "BarrelLength": 9.5,
+    "NumberBuild": 1450,
+    "Range": 5932,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 55,
+    "Countries": [
+      { "Id": 66 },
+      { "Id": 50 },
+      { "Id": 35 },
+      { "Id": 56 },
+      { "Id": 6 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 1042410,
+    "BarrelLength": 8.4,
+    "NumberBuild": 4560,
+    "Range": 95970,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 25,
+    "Countries": [
+      { "Id": 32 },
+      { "Id": 7 },
+      { "Id": 3 },
+      { "Id": 11 },
+      { "Id": 12 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 898026,
+    "BarrelLength": 9.57,
+    "NumberBuild": 1923,
+    "Range": 0,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 11,
+    "Countries": [
+      { "Id": 64 },
+      { "Id": 5 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 111198,
+    "BarrelLength": 18.05,
+    "NumberBuild": 627,
+    "Range": 1825,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 60,
+    "Countries": [
+
+      { "Id": 28 },
+      { "Id": 61 },
+      { "Id": 4 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 568015,
+    "BarrelLength": 31.64,
+    "NumberBuild": 817,
+    "Range": 42680,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 29,
+    "Countries": [
+      { "Id": 10 },
+      { "Id": 16 },
+      { "Id": 26 },
+      { "Id": 51 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 506803,
+    "BarrelLength": 21.15,
+    "NumberBuild": 1295,
+    "Range": 92375,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 12,
+    "Countries": [
+      { "Id": 64 },
+      { "Id": 62 },
+      { "Id": 19 },
+      { "Id": 88 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 404480,
+    "BarrelLength": 14.25,
+    "NumberBuild": 2215,
+    "Range": 28493,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 25,
+    "Countries": [
+      { "Id": 29 },
+      { "Id": 73 },
+      { "Id": 82 },
+      { "Id": 87 },
+      { "Id": 50 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 278454,
+    "BarrelLength": 13.18,
+    "NumberBuild": 4426,
+    "Range": 70090,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 16,
+    "Countries": [
+      { "Id": 32 },
+      { "Id": 23 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 677544,
+    "BarrelLength": 23.14,
+    "NumberBuild": 2033,
+    "Range": 19806,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 40,
+    "Countries": [
+      { "Id": 12 },
+      { "Id": 13 }
+    ]
+  },
+  {
+    "ManufacturerId": 3,
+    "GunWeight": 532122,
+    "BarrelLength": 21.24,
+    "NumberBuild": 4020,
+    "Range": 79586,
+    "GunType": "InvalidFieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 42 },
+      { "Id": 23 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 681540,
+    "BarrelLength": 2.54,
+    "NumberBuild": 635,
+    "Range": 41095,
+    "GunType": "FieldGun",
+    "ShellId": 40,
+    "Countries": [
+      { "Id": 82 },
+      { "Id": 71 },
+      { "Id": 75 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 815488,
+    "BarrelLength": 34.5,
+    "NumberBuild": 4375,
+    "Range": 59813,
+    "GunType": "FieldGun",
+    "ShellId": 53,
+    "Countries": [
+      { "Id": 1 },
+      { "Id": 71 },
+      { "Id": 41 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 1275504,
+    "BarrelLength": 15.62,
+    "NumberBuild": 4421,
+    "Range": 60335,
+    "GunType": "FieldGun",
+    "ShellId": 22,
+    "Countries": [
+      { "Id": 14 },
+      { "Id": 76 },
+      { "Id": 42 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 397287,
+    "BarrelLength": 34.23,
+    "NumberBuild": 2908,
+    "Range": 97858,
+    "GunType": "FieldGun",
+    "ShellId": 49,
+    "Countries": [
+      { "Id": 10 },
+      { "Id": 2 },
+      { "Id": 6 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 1002879,
+    "BarrelLength": 3.59,
+    "NumberBuild": 627,
+    "Range": 13992,
+    "GunType": "FieldGun",
+    "ShellId": 43,
+    "Countries": [
+
+      { "Id": 9 },
+      { "Id": 42 },
+      { "Id": 16 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 428987,
+    "BarrelLength": 23.59,
+    "NumberBuild": 3952,
+    "Range": 53692,
+    "GunType": "FieldGun",
+    "ShellId": 12,
+    "Countries": [
+      { "Id": 23 },
+      { "Id": 73 },
+      { "Id": 77 },
+      { "Id": 41 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 624155,
+    "BarrelLength": 23.41,
+    "NumberBuild": 2833,
+    "Range": 71834,
+    "GunType": "FieldGun",
+    "ShellId": 6,
+    "Countries": [
+      { "Id": 37 },
+      { "Id": 25 },
+      { "Id": 59 },
+      { "Id": 3 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 849306,
+    "BarrelLength": 6.62,
+    "NumberBuild": 714,
+    "Range": 60559,
+    "GunType": "FieldGun",
+    "ShellId": 53,
+    "Countries": [
+      { "Id": 35 },
+      { "Id": 23 },
+      { "Id": 68 },
+      { "Id": 9 }
+    ]
+  },
+  {
+    "ManufacturerId": 17,
+    "GunWeight": 1345663,
+    "BarrelLength": 5.27,
+    "NumberBuild": 3035,
+    "Range": 55693,
+    "GunType": "InvalidFieldGun",
+    "ShellId": 34,
+    "Countries": [
+      { "Id": 15 },
+      { "Id": 13 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 989549,
+    "BarrelLength": 8.57,
+    "NumberBuild": 3222,
+    "Range": 95419,
+    "GunType": "InvalidMortar",
+    "ShellId": 59,
+    "Countries": [
+      { "Id": 35 },
+      { "Id": 23 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 437124,
+    "BarrelLength": 40.1,
+    "NumberBuild": 4131,
+    "Range": 53450,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 5 },
+      { "Id": 3 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 189220,
+    "BarrelLength": 1.22,
+    "NumberBuild": 3437,
+    "Range": 78883,
+    "GunType": "Mortar",
+    "ShellId": 48,
+    "Countries": [
+      { "Id": 63 },
+      { "Id": 68 },
+      { "Id": 19 }
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 846742,
+    "BarrelLength": 16.53,
+    "NumberBuild": 1220,
+    "Range": 74144,
+    "GunType": "Mortar",
+    "ShellId": 57,
+    "Countries": [
+      { "Id": 12 },
+      { "Id": 1 },
+      { "Id": 86 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 677639,
+    "BarrelLength": 21.88,
+    "NumberBuild": 4312,
+    "Range": 58010,
+    "GunType": "Howitzer",
+    "ShellId": 8,
+    "Countries": [
+      { "Id": 56 },
+      { "Id": 84 },
+      { "Id": 81 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 316717,
+    "BarrelLength": 23.97,
+    "NumberBuild": 2826,
+    "Range": 49269,
+    "GunType": "Howitzer",
+    "ShellId": 24,
+    "Countries": [
+      { "Id": 35 },
+      { "Id": 11 },
+      { "Id": 71 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 157355,
+    "BarrelLength": 33.3,
+    "NumberBuild": 1883,
+    "Range": 88551,
+    "GunType": "Howitzer",
+    "ShellId": 25,
+    "Countries": [
+      { "Id": 25 },
+      { "Id": 61 },
+      { "Id": 81 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 70,
+    "BarrelLength": 18.44,
+    "NumberBuild": 4903,
+    "Range": 56863,
+    "GunType": "Howitzer",
+    "ShellId": 17,
+    "Countries": [
+      { "Id": 33 },
+      { "Id": 2 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 1164010,
+    "BarrelLength": 18.29,
+    "NumberBuild": 4616,
+    "Range": 50523,
+    "GunType": "Howitzer",
+    "ShellId": 48,
+    "Countries": [
+      { "Id": 32 },
+      { "Id": 1 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 2350000,
+    "BarrelLength": 32.25,
+    "NumberBuild": 937,
+    "Range": 35145,
+    "GunType": "Howitzer",
+    "ShellId": 27,
+    "Countries": [
+      { "Id": 58 },
+      { "Id": 39 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 1003530,
+    "BarrelLength": 14.93,
+    "NumberBuild": 437,
+    "Range": 3895,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 18 },
+      { "Id": 58 },
+      { "Id": 12 },
+      { "Id": 7 },
+      { "Id": 56 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 176861,
+    "BarrelLength": 33.42,
+    "NumberBuild": 81,
+    "Range": 78015,
+    "GunType": "Howitzer",
+    "ShellId": 7,
+    "Countries": [
+      { "Id": 15 },
+      { "Id": 17 },
+      { "Id": 7 },
+      { "Id": 20 },
+      { "Id": 28 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 1105452,
+    "BarrelLength": 22.62,
+    "NumberBuild": 4933,
+    "Range": 85609,
+    "GunType": "AntiTankGun",
+    "ShellId": 47,
+    "Countries": [
+      { "Id": 84 },
+      { "Id": 57 },
+      { "Id": 73 },
+      { "Id": 60 },
+      { "Id": 11 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 249146,
+    "BarrelLength": 11.85,
+    "NumberBuild": 976,
+    "Range": 25283,
+    "GunType": "AntiTankGun",
+    "ShellId": 38,
+    "Countries": [
+      { "Id": 72 },
+      { "Id": 51 },
+      { "Id": 12 },
+      { "Id": 41 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 525545,
+    "BarrelLength": 13.22,
+    "NumberBuild": 3715,
+    "Range": 87306,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 49 },
+      { "Id": 8 },
+      { "Id": 79 },
+      { "Id": 45 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 191709,
+    "BarrelLength": 11.28,
+    "NumberBuild": 3622,
+    "Range": 53458,
+    "GunType": "AntiTankGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 76 },
+      { "Id": 10 },
+      { "Id": 72 }
+    ]
+  },
+  {
+    "ManufacturerId": 20,
+    "GunWeight": 750469,
+    "BarrelLength": 28.78,
+    "NumberBuild": 3678,
+    "Range": 37451,
+    "GunType": "AntiTankGun",
+    "ShellId": 4,
+    "Countries": [
+      { "Id": 25 },
+      { "Id": 5 },
+      { "Id": 6 },
+      { "Id": 73 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 52964,
+    "BarrelLength": 20.25,
+    "NumberBuild": 2238,
+    "Range": 536,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 33 },
+      { "Id": 55 },
+      { "Id": 10 },
+      { "Id": 31 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 762658,
+    "BarrelLength": 27.38,
+    "NumberBuild": 3790,
+    "Range": 40513,
+    "GunType": "AntiTankGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 22 },
+      { "Id": 7 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 76258,
+    "BarrelLength": 27.38,
+    "NumberBuild": 3790,
+    "Range": 4513,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 22 },
+      { "Id": 7 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 76265,
+    "BarrelLength": 27.38,
+    "NumberBuild": 3790,
+    "Range": 4051,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 22 },
+      { "Id": 7 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 76658,
+    "BarrelLength": 27.38,
+    "NumberBuild": 390,
+    "Range": 4013,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 22 },
+      { "Id": 7 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 1088872,
+    "BarrelLength": 4.21,
+    "NumberBuild": 809,
+    "Range": 130000,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 55 },
+      { "Id": 16 },
+      { "Id": 67 },
+      { "Id": 71 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 237482,
+    "BarrelLength": 10.99,
+    "NumberBuild": 1191,
+    "Range": 95519,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 4,
+    "Countries": [
+      { "Id": 79 },
+      { "Id": 16 },
+      { "Id": 17 },
+      { "Id": 44 }
+    ]
+  },
+  {
+    "ManufacturerId": 19,
+    "GunWeight": 124155,
+    "BarrelLength": 32.52,
+    "NumberBuild": 4921,
+    "Range": 58071,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 60,
+    "Countries": [
+      { "Id": 6 },
+      { "Id": 47 },
+      { "Id": 51 },
+      { "Id": 50 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 325478,
+    "BarrelLength": 34.08,
+    "NumberBuild": 2048,
+    "Range": 78497,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 18 },
+      { "Id": 17 },
+      { "Id": 11 },
+      { "Id": 66 },
+      { "Id": 30 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 194665,
+    "BarrelLength": 26.73,
+    "NumberBuild": 855,
+    "Range": 97280,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 21,
+    "Countries": [
+      { "Id": 21 },
+      { "Id": 11 },
+      { "Id": 58 },
+      { "Id": 85 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 1269675,
+    "BarrelLength": 29.76,
+    "NumberBuild": 677,
+    "Range": 45509,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 55,
+    "Countries": [
+      { "Id": 46 },
+      { "Id": 71 },
+      { "Id": 45 },
+      { "Id": 25 }
+    ]
+  },
+  {
+    "ManufacturerId": 17,
+    "GunWeight": 25401,
+    "BarrelLength": 33.48,
+    "NumberBuild": 3019,
+    "Range": 3235,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 4,
+    "Countries": [
+
+      { "Id": 6 },
+      { "Id": 38 },
+      { "Id": 25 },
+      { "Id": 43 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 1310603,
+    "BarrelLength": 10.24,
+    "NumberBuild": 3684,
+    "Range": 2827,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 32,
+    "Countries": [
+      { "Id": 16 },
+      { "Id": 11 },
+      { "Id": 30 },
+      { "Id": 74 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 133242,
+    "BarrelLength": 6.09,
+    "NumberBuild": 1985,
+    "Range": 66122,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 12,
+    "Countries": [
+      { "Id": 25 },
+      { "Id": 12 },
+      { "Id": 1 },
+      { "Id": 26 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 308663,
+    "BarrelLength": 5.62,
+    "NumberBuild": 882,
+    "Range": 91416,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 1,
+    "Countries": [
+      { "Id": 29 },
+      { "Id": 14 },
+      { "Id": 56 },
+      { "Id": 16 }
+    ]
+  },
+  {
+    "ManufacturerId": 10,
+    "GunWeight": 634318,
+    "BarrelLength": 34.99,
+    "NumberBuild": 696,
+    "Range": 57280,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 11,
+    "Countries": [
+      { "Id": 6 },
+      { "Id": 36 },
+      { "Id": 19 },
+      { "Id": 17 }
+    ]
+  },
+  {
+    "ManufacturerId": 20,
+    "GunWeight": 130140,
+    "BarrelLength": 22.39,
+    "NumberBuild": 2871,
+    "Range": 46852,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 21,
+    "Countries": [
+      { "Id": 15 },
+      { "Id": 67 },
+      { "Id": 33 },
+      { "Id": 64 },
+      { "Id": 19 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 1067430,
+    "BarrelLength": 4.32,
+    "NumberBuild": 2358,
+    "Range": 43193,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 20,
+    "Countries": [
+      { "Id": 69 },
+      { "Id": 84 },
+      { "Id": 53 },
+      { "Id": 47 },
+      { "Id": 80 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 452625,
+    "BarrelLength": 6.5,
+    "NumberBuild": 2501,
+    "Range": 95307,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 15,
+    "Countries": [
+      { "Id": 13 },
+      { "Id": 38 },
+      { "Id": 50 },
+      { "Id": 71 },
+      { "Id": 73 },
+      { "Id": 77 }
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 641812,
+    "BarrelLength": 3.34,
+    "NumberBuild": 2365,
+    "Range": 35128,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 55,
+    "Countries": [
+      { "Id": 60 },
+      { "Id": 74 },
+      { "Id": 28 },
+      { "Id": 5 },
+      { "Id": 44 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 426947,
+    "BarrelLength": 28.44,
+    "NumberBuild": 4457,
+    "Range": 90563,
+    "GunType": "MountainGun",
+    "ShellId": 15,
+    "Countries": [
+      { "Id": 10 },
+      { "Id": 3 },
+      { "Id": 57 },
+      { "Id": 12 },
+      { "Id": 31 }
+    ]
+  },
+  {
+    "ManufacturerId": 3,
+    "GunWeight": 868464,
+    "BarrelLength": 17.68,
+    "NumberBuild": 4852,
+    "Range": 79657,
+    "GunType": "MountainGun",
+    "ShellId": 42,
+    "Countries": [
+      { "Id": 63 },
+      { "Id": 72 },
+      { "Id": 32 },
+      { "Id": 74 }
+    ]
+  },
+  {
+    "ManufacturerId": 19,
+    "GunWeight": 257926,
+    "BarrelLength": 16.97,
+    "NumberBuild": 3604,
+    "Range": 13867,
+    "GunType": "MountainGun",
+    "ShellId": 31,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 3 },
+      { "Id": 67 },
+      { "Id": 13 }
+    ]
+  },
+  {
+    "ManufacturerId": 13,
+    "GunWeight": 808955,
+    "BarrelLength": 31.33,
+    "NumberBuild": 2285,
+    "Range": 40069,
+    "GunType": "MountainGun",
+    "ShellId": 45,
+    "Countries": [
+      { "Id": 69 },
+      { "Id": 59 },
+      { "Id": 76 },
+      { "Id": 57 },
+      { "Id": 2 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 735126,
+    "BarrelLength": 4.66,
+    "NumberBuild": 3432,
+    "Range": 76997,
+    "GunType": "MountainGun",
+    "ShellId": 48,
+    "Countries": [
+      { "Id": 62 },
+      { "Id": 72 },
+      { "Id": 77 },
+      { "Id": 5 },
+      { "Id": 15 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 591583,
+    "BarrelLength": 32.67,
+    "NumberBuild": 2897,
+    "Range": 23400,
+    "GunType": "MountainGun",
+    "ShellId": 21,
+    "Countries": [
+      { "Id": 51 },
+      { "Id": 76 },
+      { "Id": 68 },
+      { "Id": 29 },
+      { "Id": 71 },
+      { "Id": 79 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 74550,
+    "BarrelLength": 34.08,
+    "NumberBuild": 1313,
+    "Range": 48339,
+    "GunType": "MountainGun",
+    "ShellId": 33,
+    "Countries": [
+      { "Id": 27 },
+      { "Id": 32 },
+      { "Id": 41 },
+      { "Id": 52 }
+    ]
+  },
+  {
+    "ManufacturerId": 11,
+    "GunWeight": 267016,
+    "BarrelLength": 17.94,
+    "NumberBuild": 3093,
+    "Range": 83701,
+    "GunType": "Howitzer",
+    "ShellId": 21,
+    "Countries": [
+      { "Id": 35 },
+      { "Id": 73 },
+      { "Id": 15 },
+      { "Id": 76 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 656499,
+    "BarrelLength": 13.04,
+    "NumberBuild": 3514,
+    "Range": 80235,
+    "GunType": "Howitzer",
+    "ShellId": 32,
+    "Countries": [
+      { "Id": 28 },
+      { "Id": 7 },
+      { "Id": 76 },
+      { "Id": 43 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 611679,
+    "BarrelLength": 17.53,
+    "NumberBuild": 927,
+    "Range": 77182,
+    "GunType": "Howitzer",
+    "ShellId": 40,
+    "Countries": [
+      { "Id": 88 },
+      { "Id": 76 },
+      { "Id": 68 },
+      { "Id": 46 }
+    ]
+  },
+  {
+    "ManufacturerId": 20,
+    "GunWeight": 1121201,
+    "BarrelLength": 12.54,
+    "NumberBuild": 2568,
+    "Range": 23407,
+    "GunType": "Howitzer",
+    "ShellId": 20,
+    "Countries": [
+      { "Id": 58 },
+      { "Id": 11 },
+      { "Id": 85 },
+      { "Id": 26 },
+      { "Id": 66 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 896806,
+    "BarrelLength": 17.0,
+    "NumberBuild": 3100,
+    "Range": 63629,
+    "GunType": "Howitzer",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 42 },
+      { "Id": 19 },
+      { "Id": 63 },
+      { "Id": 56 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 1238202,
+    "BarrelLength": 16.08,
+    "NumberBuild": 1815,
+    "Range": 48979,
+    "GunType": "Mortar",
+    "ShellId": 39,
+    "Countries": [
+      { "Id": 86 },
+      { "Id": 50 },
+      { "Id": 30 },
+      { "Id": 49 },
+      { "Id": 79 },
+      { "Id": 29 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 1136435,
+    "BarrelLength": 31.12,
+    "NumberBuild": 3121,
+    "Range": 49858,
+    "GunType": "Mortar",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 68 },
+      { "Id": 51 },
+      { "Id": 65 },
+      { "Id": 72 },
+      { "Id": 81 },
+      { "Id": 40 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 578306,
+    "BarrelLength": 31.83,
+    "NumberBuild": 413,
+    "Range": 71473,
+    "GunType": "Mortar",
+    "ShellId": 9,
+    "Countries": [
+      { "Id": 6 },
+      { "Id": 76 },
+      { "Id": 83 },
+      { "Id": 81 },
+      { "Id": 60 },
+      { "Id": 51 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 1291272,
+    "BarrelLength": 8.31,
+    "NumberBuild": 4929,
+    "Range": 14258,
+    "GunType": "Mortar",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 54 },
+      { "Id": 71 },
+      { "Id": 37 },
+      { "Id": 44 },
+      { "Id": 88 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 388420,
+    "BarrelLength": 15.87,
+    "NumberBuild": 3685,
+    "Range": 6288,
+    "GunType": "Mortar",
+    "ShellId": 17,
+    "Countries": [
+
+      { "Id": 72 },
+      { "Id": 85 },
+      { "Id": 17 },
+      { "Id": 16 }
+    ]
+  },
+  {
+    "ManufacturerId": 1,
+    "GunWeight": 1270577,
+    "BarrelLength": 10.17,
+    "NumberBuild": 4171,
+    "Range": 37365,
+    "GunType": "Mortar",
+    "ShellId": 21,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 63 },
+      { "Id": 87 },
+      { "Id": 85 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 1253820,
+    "BarrelLength": 21.12,
+    "NumberBuild": 3869,
+    "Range": 33622,
+    "GunType": "Mortar",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 9 },
+      { "Id": 26 },
+      { "Id": 3 },
+      { "Id": 81 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 217878,
+    "BarrelLength": 28.64,
+    "NumberBuild": 1312,
+    "Range": 99897,
+    "GunType": "Mortar",
+    "ShellId": 22,
+    "Countries": [
+      { "Id": 24 },
+      { "Id": 2 },
+      { "Id": 34 }
+    ]
+  },
+  {
+    "ManufacturerId": 12,
+    "GunWeight": 1049313,
+    "BarrelLength": 19.76,
+    "NumberBuild": 4684,
+    "Range": 49866,
+    "GunType": "FieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 84 },
+      { "Id": 65 },
+      { "Id": 17 }
+    ]
+  },
+  {
+    "ManufacturerId": 3,
+    "GunWeight": 1162402,
+    "BarrelLength": 5.95,
+    "NumberBuild": 4198,
+    "Range": 76086,
+    "GunType": "FieldGun",
+    "ShellId": 18,
+    "Countries": [
+      { "Id": 28 },
+      { "Id": 26 },
+      { "Id": 17 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 431716,
+    "BarrelLength": 15.7,
+    "NumberBuild": 2167,
+    "Range": 28309,
+    "GunType": "FieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 77 },
+      { "Id": 64 },
+      { "Id": 52 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 647721,
+    "BarrelLength": 27.32,
+    "NumberBuild": 3302,
+    "Range": 5493,
+    "GunType": "FieldGun",
+    "ShellId": 30,
+    "Countries": [
+      { "Id": 48 },
+      { "Id": 72 },
+      { "Id": 40 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 738205,
+    "BarrelLength": 19.72,
+    "NumberBuild": 1472,
+    "Range": 35065,
+    "GunType": "FieldGun",
+    "ShellId": 41,
+    "Countries": [
+      { "Id": 25 },
+      { "Id": 79 },
+      { "Id": 9 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 980111,
+    "BarrelLength": 27.45,
+    "NumberBuild": 1325,
+    "Range": 110000,
+    "GunType": "FieldGun",
+    "ShellId": 19,
+    "Countries": [
+      { "Id": 4 },
+      { "Id": 82 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 61773,
+    "BarrelLength": 30.37,
+    "NumberBuild": 1228,
+    "Range": 13765,
+    "GunType": null,
+    "ShellId": 16,
+    "Countries": [
+      { "Id": 87 },
+      { "Id": 70 },
+      { "Id": 38 },
+      { "Id": 24 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 78590,
+    "BarrelLength": 10.73,
+    "NumberBuild": 4144,
+    "Range": 64159,
+    "GunType": "nullFieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 40 },
+      { "Id": 61 },
+      { "Id": 27 },
+      { "Id": 56 }
+    ]
+  },
+  {
+    "ManufacturerId": 7,
+    "GunWeight": 405958,
+    "BarrelLength": 25.01,
+    "NumberBuild": 2673,
+    "Range": 31808,
+    "GunType": null,
+    "ShellId": 31,
+    "Countries": [
+      { "Id": 67 },
+      { "Id": 54 },
+      { "Id": 77 },
+      { "Id": 44 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 773403,
+    "BarrelLength": 5.18,
+    "NumberBuild": 3314,
+    "Range": 95363,
+    "GunType": "FieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 72 },
+      { "Id": 65 },
+      { "Id": 26 }
+    ]
+  },
+  {
+    "ManufacturerId": 19,
+    "GunWeight": 1324776,
+    "BarrelLength": 11.18,
+    "NumberBuild": 1211,
+    "Range": 86880,
+    "GunType": "FieldGun",
+    "ShellId": 41,
+    "Countries": [
+      { "Id": 26 },
+      { "Id": 4 },
+      { "Id": 2 },
+      { "Id": 47 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 95376,
+    "BarrelLength": 13.27,
+    "NumberBuild": 49,
+    "Range": 33220,
+    "GunType": "FieldGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 69 },
+      { "Id": 60 },
+      { "Id": 42 },
+      { "Id": 36 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 26853,
+    "BarrelLength": 20.42,
+    "NumberBuild": 3544,
+    "Range": 42523,
+    "GunType": "FieldGun",
+    "ShellId": 10,
+    "Countries": [
+      { "Id": 69 },
+      { "Id": 41 },
+      { "Id": 86 },
+      { "Id": 84 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 141654,
+    "BarrelLength": 8.68,
+    "NumberBuild": 602,
+    "Range": 92768,
+    "GunType": "AntiTankGun",
+    "ShellId": 30,
+    "Countries": [
+      { "Id": 36 },
+      { "Id": 35 },
+      { "Id": 40 },
+      { "Id": 3 }
+    ]
+  },
+  {
+    "ManufacturerId": 16,
+    "GunWeight": 472993,
+    "BarrelLength": 31.34,
+    "NumberBuild": 3880,
+    "Range": 177,
+    "GunType": "AntiTankGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 36 },
+      { "Id": 27 },
+      { "Id": 80 }
+    ]
+  },
+  {
+    "ManufacturerId": 6,
+    "GunWeight": 1123055,
+    "BarrelLength": 26.19,
+    "NumberBuild": 518,
+    "Range": 0,
+    "GunType": "AntiTankGun",
+    "ShellId": 47,
+    "Countries": [
+      { "Id": 23 },
+      { "Id": 11 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 696072,
+    "BarrelLength": 18.71,
+    "NumberBuild": 882,
+    "Range": 15564,
+    "GunType": "AntiTankGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 59 },
+      { "Id": 30 },
+      { "Id": 46 },
+      { "Id": 10 },
+      { "Id": 34 },
+      { "Id": 11 },
+      { "Id": 39 },
+      { "Id": 71 },
+      { "Id": 32 },
+      { "Id": 75 },
+      { "Id": 6 },
+      { "Id": 55 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 692286,
+    "BarrelLength": 24.53,
+    "NumberBuild": 50,
+    "Range": 20493,
+    "GunType": "AntiTankGun",
+    "ShellId": 18,
+    "Countries": [
+      { "Id": 7 },
+      { "Id": 42 },
+      { "Id": 2 },
+      { "Id": 79 }
+    ]
+  },
+  {
+    "ManufacturerId": 14,
+    "GunWeight": 505866,
+    "BarrelLength": 15.55,
+    "NumberBuild": 692,
+    "Range": 22166,
+    "GunType": "AntiTankGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 10 },
+      { "Id": 8 },
+      { "Id": 49 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 484072,
+    "BarrelLength": 14.15,
+    "NumberBuild": 157,
+    "Range": 97128,
+    "GunType": "AntiTankGun",
+    "ShellId": 2,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 25 },
+      { "Id": 39 },
+      { "Id": 55 },
+      { "Id": 15 },
+      { "Id": 16 },
+      { "Id": 70 },
+      { "Id": 8 },
+      { "Id": 54 }
+    ]
+  },
+  {
+    "ManufacturerId": 13,
+    "GunWeight": 437510,
+    "BarrelLength": 12.21,
+    "NumberBuild": 4418,
+    "Range": 97949,
+    "GunType": "MountainGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 63 },
+      { "Id": 29 },
+      { "Id": 64 },
+      { "Id": 28 }
+    ]
+  },
+  {
+    "ManufacturerId": 15,
+    "GunWeight": 1322632,
+    "BarrelLength": 17.05,
+    "NumberBuild": 2650,
+    "Range": 45767,
+    "GunType": "MountainGun",
+    "ShellId": 9,
+    "Countries": [
+      { "Id": 76 },
+      { "Id": 49 },
+      { "Id": 24 },
+      { "Id": 13 },
+      { "Id": 47 }
+    ]
+  },
+  {
+    "ManufacturerId": 9,
+    "GunWeight": 1131099,
+    "BarrelLength": 15.74,
+    "NumberBuild": 4113,
+    "Range": 9239,
+    "GunType": "MountainGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 23 },
+      { "Id": 35 },
+      { "Id": 49 },
+      { "Id": 17 },
+      { "Id": 61 },
+      { "Id": 37 }
+    ]
+  },
+  {
+    "ManufacturerId": 5,
+    "GunWeight": 1088369,
+    "BarrelLength": 28.83,
+    "NumberBuild": 3280,
+    "Range": 89259,
+    "GunType": "MountainGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 33 },
+      { "Id": 11 },
+      { "Id": 6 },
+      { "Id": 18 }
+    ]
+  },
+  {
+    "ManufacturerId": 13,
+    "GunWeight": 172258,
+    "BarrelLength": 22.63,
+    "NumberBuild": 1023,
+    "Range": 2277,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 75 },
+      { "Id": 35 },
+      { "Id": 70 }
+
+    ]
+  },
+  {
+    "ManufacturerId": 4,
+    "GunWeight": 1277712,
+    "BarrelLength": 18.21,
+    "NumberBuild": 1479,
+    "Range": 13666,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 82 },
+      { "Id": 41 },
+      { "Id": 79 },
+      { "Id": 88 },
+      { "Id": 77 },
+      { "Id": 23 },
+      { "Id": 69 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 683740,
+    "BarrelLength": 20.77,
+    "NumberBuild": 3987,
+    "Range": 97375,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 5,
+    "Countries": [
+      { "Id": 34 },
+      { "Id": 13 },
+      { "Id": 61 },
+      { "Id": 11 },
+      { "Id": 20 }
+    ]
+  },
+  {
+    "ManufacturerId": 8,
+    "GunWeight": 1280923,
+    "BarrelLength": 10.89,
+    "NumberBuild": 2496,
+    "Range": 16530,
+    "GunType": "AntiAircraftGun",
+    "ShellId": 34,
+    "Countries": [
+      { "Id": 20 },
+      { "Id": 5 },
+      { "Id": 63 },
+      { "Id": 86 },
+      { "Id": 77 }
+    ]
+  },
+  {
+    "ManufacturerId": 18,
+    "GunWeight": 1140508,
+    "BarrelLength": 14.64,
+    "NumberBuild": 3194,
+    "Range": 23828,
+    "GunType": null,
+    "ShellId": 29,
+    "Countries": [
+      { "Id": 60 },
+      { "Id": 29 }
+    ]
+  },
+  {
+    "ManufacturerId": 2,
+    "GunWeight": 85931,
+    "BarrelLength": 21.57,
+    "NumberBuild": null,
+    "Range": 47230,
+    "GunType": "MountainGun",
+    "ShellId": 52,
+    "Countries": [
+    ]
+  }
+]

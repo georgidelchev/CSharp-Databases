@@ -1,0 +1,104 @@
+﻿Successfully import Afghanistan with 1697064 army personnel.
+Invalid data.
+Successfully import Albania with 6296389 army personnel.
+Invalid data.
+Successfully import Algeria with 1284683 army personnel.
+Invalid data.
+Successfully import El Salvador with 8741588 army personnel.
+Successfully import Egypt with 9963290 army personnel.
+Successfully import Iraq with 3015801 army personnel.
+Successfully import Cameroon with 8974691 army personnel.
+Invalid data.
+Successfully import Brazil with 7759453 army personnel.
+Successfully import Equatorial Guinea with 1367588 army personnel.
+Successfully import Nigeria with 2362690 army personnel.
+Successfully import Belgium with 6632639 army personnel.
+Invalid data.
+Successfully import Eswatini (fmr.Swaziland) with 55343 army personnel.
+Successfully import Cape Verde with 7704194 army personnel.
+Successfully import Guatemala with 9782109 army personnel.
+Successfully import Kiribati with 8714446 army personnel.
+Successfully import Tajikistan with 2562377 army personnel.
+Successfully import Kazakhstan with 7879406 army personnel.
+Successfully import Laos with 4699836 army personnel.
+Invalid data.
+Successfully import Guinea-Bissau with 9316866 army personnel.
+Successfully import Portugal with 9523599 army personnel.
+Successfully import Tanzania with 6647960 army personnel.
+Successfully import Denmark with 6808103 army personnel.
+Successfully import Czech Republic with 7339547 army personnel.
+Successfully import United Kingdom with 7242451 army personnel.
+Successfully import Fiji with 287680 army personnel.
+Successfully import Lebanon with 8320025 army personnel.
+Invalid data.
+Successfully import Indonesia with 1790892 army personnel.
+Successfully import Croatia with 9219257 army personnel.
+Successfully import Liechtenstein with 9813470 army personnel.
+Successfully import Madagascar with 6157226 army personnel.
+Successfully import Cuba with 5868221 army personnel.
+Successfully import Gabon with 6754609 army personnel.
+Successfully import Gambia with 3308011 army personnel.
+Successfully import Malta with 8507869 army personnel.
+Invalid data.
+Successfully import Japan with 8735730 army personnel.
+Successfully import Albania with 2660998 army personnel.
+Successfully import Costa Rica with 9992807 army personnel.
+Successfully import Belize with 3437766 army personnel.
+Successfully import France with 4288008 army personnel.
+Successfully import Marshall Islands with 9068140 army personnel.
+Successfully import Cambodia with 9005635 army personnel.
+Successfully import Micronesia with 3835934 army personnel.
+Successfully import Japan with 9689633 army personnel.
+Invalid data.
+Invalid data.
+Successfully import Sweden with 5437337 army personnel.
+Successfully import Morocco with 926051 army personnel.
+Successfully import Antigua and Barbuda with 1244721 army personnel.
+Successfully import Central African Republic with 5699905 army personnel.
+Successfully import Mauritius with 9900557 army personnel.
+Successfully import Myanmar with 9883310 army personnel.
+Successfully import Norway with 6282380 army personnel.
+Successfully import Cabo Verde with 8521656 army personnel.
+Successfully import China with 2898317 army personnel.
+Successfully import Cote d'Ivoire with 9710985 army personnel.
+Successfully import Myanmar (formerly Burma) with 9877188 army personnel.
+Successfully import Chad with 596920 army personnel.
+Invalid data.
+Successfully import Argentina with 96357 army personnel.
+Successfully import Bhutan with 3752738 army personnel.
+Successfully import Ukraine with 7786236 army personnel.
+Successfully import Moldova with 3173811 army personnel.
+Successfully import Spain with 1241019 army personnel.
+Successfully import China with 9944746 army personnel.
+Successfully import Colombia with 6406948 army personnel.
+Successfully import Chile with 6320941 army personnel.
+Invalid data.
+Successfully import Philippines with 6632041 army personnel.
+Successfully import Congo (Congo-Brazzaville) with 4538483 army personnel.
+Invalid data.
+Successfully import Russia with 9433929 army personnel.
+Successfully import Barbados with 1113135 army personnel.
+Successfully import Bangladesh with 2884926 army personnel.
+Successfully import Armenia with 1158367 army personnel.
+Successfully import Indonesia with 8178702 army personnel.
+Successfully import Bahrain with 6356846 army personnel.
+Successfully import Croatia with 586582 army personnel.
+Successfully import Bahamas with 2418081 army personnel.
+Successfully import Austria with 6410897 army personnel.
+Successfully import Australia with 3029817 army personnel.
+Successfully import Equatorial Guinea with 9751317 army personnel.
+Successfully import Botswana with 4006799 army personnel.
+Invalid data.
+Successfully import Bolivia with 9175730 army personnel.
+Successfully import Canada with 6947882 army personnel.
+Successfully import China with 1090633 army personnel.
+Successfully import Belarus with 568629 army personnel.
+Successfully import Bulgaria with 2871711 army personnel.
+Successfully import Ireland with 410899 army personnel.
+Successfully import Bosnia and Herzegovina with 1687676 army personnel.
+Successfully import Namibia with 682442 army personnel.
+Successfully import Israel with 1394664 army personnel.
+Successfully import Poland with 6228443 army personnel.
+Invalid data.
+Successfully import Angola with 94589 army personnel.
+Invalid data.

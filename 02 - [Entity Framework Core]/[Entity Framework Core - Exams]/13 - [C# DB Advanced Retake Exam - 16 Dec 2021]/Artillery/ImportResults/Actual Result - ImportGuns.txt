@@ -1,0 +1,163 @@
+Invalid data.
+Successfully import gun AntiTankGun with a total weight of 801684 kg. and barrel length of 31.18 m.
+Invalid data.
+Invalid data.
+Successfully import gun AntiTankGun with a total weight of 178458 kg. and barrel length of 19.68 m.
+Successfully import gun AntiTankGun with a total weight of 506304 kg. and barrel length of 5.81 m.
+Successfully import gun AntiTankGun with a total weight of 265892 kg. and barrel length of 28.99 m.
+Invalid data.
+Invalid data.
+Successfully import gun AntiTankGun with a total weight of 531367 kg. and barrel length of 22.41 m.
+Successfully import gun AntiTankGun with a total weight of 1263981 kg. and barrel length of 5.65 m.
+Successfully import gun AntiTankGun with a total weight of 747531 kg. and barrel length of 31.33 m.
+Successfully import gun AntiTankGun with a total weight of 953756 kg. and barrel length of 23.64 m.
+Successfully import gun AntiTankGun with a total weight of 187500 kg. and barrel length of 22.9 m.
+Successfully import gun AntiTankGun with a total weight of 1148585 kg. and barrel length of 31.44 m.
+Successfully import gun AntiTankGun with a total weight of 401569 kg. and barrel length of 28.66 m.
+Invalid data.
+Successfully import gun MountainGun with a total weight of 1244859 kg. and barrel length of 29.1 m.
+Successfully import gun MountainGun with a total weight of 850582 kg. and barrel length of 25.01 m.
+Successfully import gun MountainGun with a total weight of 1231865 kg. and barrel length of 14.24 m.
+Invalid data.
+Successfully import gun MountainGun with a total weight of 1180282 kg. and barrel length of 34.59 m.
+Successfully import gun MountainGun with a total weight of 984486 kg. and barrel length of 18.9 m.
+Invalid data.
+Successfully import gun MountainGun with a total weight of 904981 kg. and barrel length of 21.81 m.
+Successfully import gun MountainGun with a total weight of 571699 kg. and barrel length of 26.03 m.
+Invalid data.
+Successfully import gun MountainGun with a total weight of 1172976 kg. and barrel length of 8.78 m.
+Successfully import gun MountainGun with a total weight of 1199508 kg. and barrel length of 10.55 m.
+Successfully import gun MountainGun with a total weight of 566992 kg. and barrel length of 30.43 m.
+Successfully import gun MountainGun with a total weight of 151760 kg. and barrel length of 22.69 m.
+Successfully import gun MountainGun with a total weight of 178650 kg. and barrel length of 8.36 m.
+Successfully import gun AntiAircraftGun with a total weight of 445857 kg. and barrel length of 17.18 m.
+Successfully import gun AntiAircraftGun with a total weight of 137985 kg. and barrel length of 25.34 m.
+Invalid data.
+Successfully import gun AntiAircraftGun with a total weight of 253208 kg. and barrel length of 29.9 m.
+Successfully import gun AntiAircraftGun with a total weight of 893297 kg. and barrel length of 26.17 m.
+Successfully import gun AntiAircraftGun with a total weight of 615800 kg. and barrel length of 32.13 m.
+Successfully import gun AntiAircraftGun with a total weight of 61580 kg. and barrel length of 32.13 m.
+Successfully import gun AntiAircraftGun with a total weight of 61800 kg. and barrel length of 32.13 m.
+Successfully import gun AntiAircraftGun with a total weight of 65800 kg. and barrel length of 32.13 m.
+Successfully import gun AntiAircraftGun with a total weight of 61580 kg. and barrel length of 32.13 m.
+Successfully import gun AntiAircraftGun with a total weight of 497845 kg. and barrel length of 4.19 m.
+Successfully import gun AntiAircraftGun with a total weight of 1274626 kg. and barrel length of 7.1 m.
+Successfully import gun AntiAircraftGun with a total weight of 99238 kg. and barrel length of 12.71 m.
+Successfully import gun AntiAircraftGun with a total weight of 1006476 kg. and barrel length of 10.21 m.
+Successfully import gun AntiAircraftGun with a total weight of 1128413 kg. and barrel length of 6.68 m.
+Successfully import gun AntiAircraftGun with a total weight of 423195 kg. and barrel length of 21.59 m.
+Successfully import gun AntiAircraftGun with a total weight of 747132 kg. and barrel length of 33.69 m.
+Successfully import gun AntiAircraftGun with a total weight of 366428 kg. and barrel length of 16.86 m.
+Successfully import gun AntiAircraftGun with a total weight of 871854 kg. and barrel length of 26.23 m.
+Successfully import gun AntiAircraftGun with a total weight of 1133227 kg. and barrel length of 17.74 m.
+Successfully import gun AntiAircraftGun with a total weight of 585885 kg. and barrel length of 18.77 m.
+Successfully import gun AntiAircraftGun with a total weight of 530804 kg. and barrel length of 30.64 m.
+Successfully import gun AntiAircraftGun with a total weight of 948898 kg. and barrel length of 6.72 m.
+Successfully import gun AntiAircraftGun with a total weight of 250138 kg. and barrel length of 6.55 m.
+Successfully import gun AntiAircraftGun with a total weight of 1112017 kg. and barrel length of 17.89 m.
+Successfully import gun AntiAircraftGun with a total weight of 360639 kg. and barrel length of 9.5 m.
+Successfully import gun AntiAircraftGun with a total weight of 1042410 kg. and barrel length of 8.4 m.
+Invalid data.
+Successfully import gun AntiAircraftGun with a total weight of 111198 kg. and barrel length of 18.05 m.
+Successfully import gun AntiAircraftGun with a total weight of 568015 kg. and barrel length of 31.64 m.
+Successfully import gun AntiAircraftGun with a total weight of 506803 kg. and barrel length of 21.15 m.
+Successfully import gun AntiAircraftGun with a total weight of 404480 kg. and barrel length of 14.25 m.
+Successfully import gun AntiAircraftGun with a total weight of 278454 kg. and barrel length of 13.18 m.
+Successfully import gun AntiAircraftGun with a total weight of 677544 kg. and barrel length of 23.14 m.
+Invalid data.
+Successfully import gun FieldGun with a total weight of 681540 kg. and barrel length of 2.54 m.
+Successfully import gun FieldGun with a total weight of 815488 kg. and barrel length of 34.5 m.
+Successfully import gun FieldGun with a total weight of 1275504 kg. and barrel length of 15.62 m.
+Successfully import gun FieldGun with a total weight of 397287 kg. and barrel length of 34.23 m.
+Successfully import gun FieldGun with a total weight of 1002879 kg. and barrel length of 3.59 m.
+Successfully import gun FieldGun with a total weight of 428987 kg. and barrel length of 23.59 m.
+Successfully import gun FieldGun with a total weight of 624155 kg. and barrel length of 23.41 m.
+Successfully import gun FieldGun with a total weight of 849306 kg. and barrel length of 6.62 m.
+Invalid data.
+Invalid data.
+Invalid data.
+Invalid data.
+Successfully import gun Mortar with a total weight of 846742 kg. and barrel length of 16.53 m.
+Successfully import gun Howitzer with a total weight of 677639 kg. and barrel length of 21.88 m.
+Successfully import gun Howitzer with a total weight of 316717 kg. and barrel length of 23.97 m.
+Successfully import gun Howitzer with a total weight of 157355 kg. and barrel length of 33.3 m.
+Invalid data.
+Successfully import gun Howitzer with a total weight of 1164010 kg. and barrel length of 18.29 m.
+Invalid data.
+Successfully import gun AntiAircraftGun with a total weight of 1003530 kg. and barrel length of 14.93 m.
+Successfully import gun Howitzer with a total weight of 176861 kg. and barrel length of 33.42 m.
+Successfully import gun AntiTankGun with a total weight of 1105452 kg. and barrel length of 22.62 m.
+Successfully import gun AntiTankGun with a total weight of 249146 kg. and barrel length of 11.85 m.
+Successfully import gun AntiAircraftGun with a total weight of 525545 kg. and barrel length of 13.22 m.
+Successfully import gun AntiTankGun with a total weight of 191709 kg. and barrel length of 11.28 m.
+Successfully import gun AntiTankGun with a total weight of 750469 kg. and barrel length of 28.78 m.
+Successfully import gun AntiAircraftGun with a total weight of 52964 kg. and barrel length of 20.25 m.
+Successfully import gun AntiTankGun with a total weight of 762658 kg. and barrel length of 27.38 m.
+Successfully import gun AntiAircraftGun with a total weight of 76258 kg. and barrel length of 27.38 m.
+Successfully import gun AntiAircraftGun with a total weight of 76265 kg. and barrel length of 27.38 m.
+Successfully import gun AntiAircraftGun with a total weight of 76658 kg. and barrel length of 27.38 m.
+Invalid data.
+Successfully import gun AntiAircraftGun with a total weight of 237482 kg. and barrel length of 10.99 m.
+Successfully import gun AntiAircraftGun with a total weight of 124155 kg. and barrel length of 32.52 m.
+Successfully import gun AntiAircraftGun with a total weight of 325478 kg. and barrel length of 34.08 m.
+Successfully import gun AntiAircraftGun with a total weight of 194665 kg. and barrel length of 26.73 m.
+Successfully import gun AntiAircraftGun with a total weight of 1269675 kg. and barrel length of 29.76 m.
+Successfully import gun AntiAircraftGun with a total weight of 25401 kg. and barrel length of 33.48 m.
+Successfully import gun AntiAircraftGun with a total weight of 1310603 kg. and barrel length of 10.24 m.
+Successfully import gun AntiAircraftGun with a total weight of 133242 kg. and barrel length of 6.09 m.
+Successfully import gun AntiAircraftGun with a total weight of 308663 kg. and barrel length of 5.62 m.
+Successfully import gun AntiAircraftGun with a total weight of 634318 kg. and barrel length of 34.99 m.
+Successfully import gun AntiAircraftGun with a total weight of 130140 kg. and barrel length of 22.39 m.
+Successfully import gun AntiAircraftGun with a total weight of 1067430 kg. and barrel length of 4.32 m.
+Successfully import gun AntiAircraftGun with a total weight of 452625 kg. and barrel length of 6.5 m.
+Successfully import gun AntiAircraftGun with a total weight of 641812 kg. and barrel length of 3.34 m.
+Successfully import gun MountainGun with a total weight of 426947 kg. and barrel length of 28.44 m.
+Successfully import gun MountainGun with a total weight of 868464 kg. and barrel length of 17.68 m.
+Successfully import gun MountainGun with a total weight of 257926 kg. and barrel length of 16.97 m.
+Successfully import gun MountainGun with a total weight of 808955 kg. and barrel length of 31.33 m.
+Successfully import gun MountainGun with a total weight of 735126 kg. and barrel length of 4.66 m.
+Successfully import gun MountainGun with a total weight of 591583 kg. and barrel length of 32.67 m.
+Successfully import gun MountainGun with a total weight of 74550 kg. and barrel length of 34.08 m.
+Successfully import gun Howitzer with a total weight of 267016 kg. and barrel length of 17.94 m.
+Successfully import gun Howitzer with a total weight of 656499 kg. and barrel length of 13.04 m.
+Successfully import gun Howitzer with a total weight of 611679 kg. and barrel length of 17.53 m.
+Successfully import gun Howitzer with a total weight of 1121201 kg. and barrel length of 12.54 m.
+Successfully import gun Howitzer with a total weight of 896806 kg. and barrel length of 17 m.
+Successfully import gun Mortar with a total weight of 1238202 kg. and barrel length of 16.08 m.
+Successfully import gun Mortar with a total weight of 1136435 kg. and barrel length of 31.12 m.
+Successfully import gun Mortar with a total weight of 578306 kg. and barrel length of 31.83 m.
+Successfully import gun Mortar with a total weight of 1291272 kg. and barrel length of 8.31 m.
+Successfully import gun Mortar with a total weight of 388420 kg. and barrel length of 15.87 m.
+Successfully import gun Mortar with a total weight of 1270577 kg. and barrel length of 10.17 m.
+Successfully import gun Mortar with a total weight of 1253820 kg. and barrel length of 21.12 m.
+Successfully import gun Mortar with a total weight of 217878 kg. and barrel length of 28.64 m.
+Successfully import gun FieldGun with a total weight of 1049313 kg. and barrel length of 19.76 m.
+Successfully import gun FieldGun with a total weight of 1162402 kg. and barrel length of 5.95 m.
+Successfully import gun FieldGun with a total weight of 431716 kg. and barrel length of 15.7 m.
+Successfully import gun FieldGun with a total weight of 647721 kg. and barrel length of 27.32 m.
+Successfully import gun FieldGun with a total weight of 738205 kg. and barrel length of 19.72 m.
+Invalid data.
+Invalid data.
+Invalid data.
+Invalid data.
+Successfully import gun FieldGun with a total weight of 773403 kg. and barrel length of 5.18 m.
+Successfully import gun FieldGun with a total weight of 1324776 kg. and barrel length of 11.18 m.
+Successfully import gun FieldGun with a total weight of 95376 kg. and barrel length of 13.27 m.
+Successfully import gun FieldGun with a total weight of 26853 kg. and barrel length of 20.42 m.
+Successfully import gun AntiTankGun with a total weight of 141654 kg. and barrel length of 8.68 m.
+Successfully import gun AntiTankGun with a total weight of 472993 kg. and barrel length of 31.34 m.
+Invalid data.
+Successfully import gun AntiTankGun with a total weight of 696072 kg. and barrel length of 18.71 m.
+Successfully import gun AntiTankGun with a total weight of 692286 kg. and barrel length of 24.53 m.
+Successfully import gun AntiTankGun with a total weight of 505866 kg. and barrel length of 15.55 m.
+Successfully import gun AntiTankGun with a total weight of 484072 kg. and barrel length of 14.15 m.
+Successfully import gun MountainGun with a total weight of 437510 kg. and barrel length of 12.21 m.
+Successfully import gun MountainGun with a total weight of 1322632 kg. and barrel length of 17.05 m.
+Successfully import gun MountainGun with a total weight of 1131099 kg. and barrel length of 15.74 m.
+Successfully import gun MountainGun with a total weight of 1088369 kg. and barrel length of 28.83 m.
+Successfully import gun AntiAircraftGun with a total weight of 172258 kg. and barrel length of 22.63 m.
+Successfully import gun AntiAircraftGun with a total weight of 1277712 kg. and barrel length of 18.21 m.
+Successfully import gun AntiAircraftGun with a total weight of 683740 kg. and barrel length of 20.77 m.
+Successfully import gun AntiAircraftGun with a total weight of 1280923 kg. and barrel length of 10.89 m.
+Invalid data.
+Successfully import gun MountainGun with a total weight of 85931 kg. and barrel length of 21.57 m.
