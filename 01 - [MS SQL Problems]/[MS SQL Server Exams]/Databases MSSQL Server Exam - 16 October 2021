@@ -1,0 +1,159 @@
+create database CigarShop
+
+-- 1
+create table Sizes(
+	Id int primary key identity,
+	Length int not null,
+	RingRange decimal(18,4) not null,
+)
+
+create table Tastes(
+	Id int primary key identity,
+	TasteType nvarchar(20) not null,
+	TasteStrength nvarchar(15) not null,
+	ImageURL nvarchar(100) not null,
+)
+
+create table Brands(
+	Id int primary key identity,
+	BrandName nvarchar(30) not null,
+	BrandDescription nvarchar(max),
+)
+
+create table Cigars(
+	Id int primary key identity,
+	CigarName nvarchar(80) not null,
+	BrandId int not null,
+	TastId int not null,
+	SizeId int not null,
+	PriceForSingleCigar decimal(18,4) not null,
+	ImageURL nvarchar(100) not null,
+
+	CONSTRAINT FK_Cigars_Brands FOREIGN KEY (BrandId) REFERENCES Brands (Id),
+    CONSTRAINT FK_Cigars_Tastes FOREIGN KEY (TastId) REFERENCES Tastes (Id),
+	CONSTRAINT FK_Cigars_Sizes FOREIGN KEY (SizeId) REFERENCES Sizes (Id),
+)
+
+create table Addresses(
+	Id int primary key identity,
+	Town nvarchar(30) not null,
+	Country nvarchar(30) not null,
+	Streat nvarchar(100) not null,
+	ZIP nvarchar(20) not null,
+)
+
+create table Clients(
+	Id int primary key identity,
+	FirstName nvarchar(30) not null,
+	LastName nvarchar(30) not null,
+	Email nvarchar(50) not null,
+	AddressId int not null,
+
+	CONSTRAINT FK_Clients_Addresses FOREIGN KEY (AddressId) REFERENCES Sizes (Id),
+)
+
+create table ClientsCigars(
+	ClientId int not null,
+	CigarId int not null,
+
+	 PRIMARY KEY (ClientId, CigarId),
+
+	 CONSTRAINT FK_ClientsCigars_Clients FOREIGN KEY (ClientId) REFERENCES Clients (Id),
+	 CONSTRAINT FK_ClientsCigars_Cigars FOREIGN KEY (CigarId) REFERENCES Cigars (Id),
+)
+
+-- 2
+	INSERT INTO Cigars(CigarName, BrandId, TastId, SizeId, PriceForSingleCigar, ImageURL)
+		VALUES ('COHIBA ROBUSTO', 9, 1, 5, 15.50,'cohiba-robusto-stick_18.jpg'),
+			   ('COHIBA SIGLO I', 9, 1, 10, 410.00,'cohiba-siglo-i-stick_12.jpg'),
+               ('HOYO DE MONTERREY LE HOYO DU MAIRE', 14, 5, 11, 7.50,'hoyo-du-maire-stick_17.jpg'),
+               ('HOYO DE MONTERREY LE HOYO DE SAN JUAN', 14, 4, 15, 32.00, 'hoyo-de-san-juan-stick_20.jpg'),
+               ('TRINIDAD COLONIALES', 2, 3, 8, 85.21, 'trinidad-coloniales-stick_30.jpg')
+	INSERT INTO Addresses(Town, Country, Streat, ZIP)
+		VALUES ('Sofia', 'Bulgaria', '18 Bul. Vasil levski', '1000'),
+               ('Athens', 'Greece', '4342 McDonald Avenue', '10435'),
+               ('Zagreb', 'Croatia', '4333 Lauren Drive', '10000')
+
+-- 3
+update Cigars
+	set PriceForSingleCigar += PriceForSingleCigar * 0.2
+		where TastId = 1
+
+update Brands
+	set BrandDescription='New description' 
+		where BrandDescription is null
+
+-- 4
+delete from Clients
+	where AddressId in (select Id from Addresses where Country like ('C%'))
+
+delete from Addresses 
+	where Country like ('C%')
+
+-- 5
+select c.CigarName, c.PriceForSingleCigar, c.ImageURL 
+	from Cigars as c
+		order by PriceForSingleCigar, CigarName DESC
+
+-- 6
+select c.Id, c.CigarName, c.PriceForSingleCigar, t.TasteType, t.TasteStrength 
+	from Tastes as t
+		join Cigars as c on c.TastId=t.Id
+	where t.TasteType = 'Earthy' or t.TasteType='Woody'
+		order by c.PriceForSingleCigar desc
+
+-- 7
+select c.Id, c.FirstName + ' ' + c.LastName as FullName, c.Email 
+	from Clients as c
+		where Id not in (select cc.ClientId from ClientsCigars as cc)
+	order by FullName
+
+-- 8
+select top(5) c.CigarName, c.PriceForSingleCigar, c.ImageURL 
+	from Sizes as s
+		join Cigars as c on c.SizeId=s.Id
+	where (s.Length >= 12) and (c.CigarName like('%ci%') or s.RingRange>2.55 and c.PriceForSingleCigar>50)
+		order by c.CigarName,c.PriceForSingleCigar desc
+
+-- 9
+select c.FirstName + ' ' + c.LastName as FullName, a.Country, a.ZIP, '$' + cast(max(c1.PriceForSingleCigar) as nvarchar) 
+	from ClientsCigars as cc
+		join Clients as c on c.Id = cc.ClientId
+		join Cigars as c1 on c1.Id=cc.CigarId
+		join Addresses as a on a.Id=c.AddressId
+	where c.AddressId in (select a.Id from Addresses as a where a.ZIP NOT LIKE '%[^0-9]%')
+		group by c.FirstName, c.LastName, a.Country, a.ZIP
+
+-- 10
+select c.LastName, avg(s.Length) as CiagrLength,ceiling(avg(s.RingRange))
+	from ClientsCigars as cc
+		join Clients as c on c.Id = cc.ClientId
+		join Cigars as c1 on c1.Id=cc.CigarId
+		join Sizes as s on s.Id=c1.SizeId
+	group by c.LastName
+		order by CiagrLength desc
+
+-- 11
+create function udf_ClientWithCigars(@name nvarchar(100))
+	returns int
+begin
+	return (select count(cc.ClientId)
+		from ClientsCigars as cc
+			join Clients as c on c.Id = cc.ClientId
+		where c.FirstName = @name)
+end
+
+SELECT dbo.udf_ClientWithCigars('Betty')
+
+-- 12
+create procedure usp_SearchByTaste(@taste nvarchar(100))
+as
+	select c.CigarName, '$'+cast(c.PriceForSingleCigar as nvarchar), t.TasteType, b.BrandName, cast(s.Length as nvarchar)+' cm', cast(s.RingRange as nvarchar)+' cm'
+		from Cigars as c
+			join Sizes as s on s.Id=c.SizeId
+			join Brands as b on b.Id=c.BrandId
+			join Tastes as t on t.Id=c.TastId
+		where t.TasteType=@taste
+	order by s.Length,s.RingRange desc
+													
+EXEC usp_SearchByTaste 'Woody'										
